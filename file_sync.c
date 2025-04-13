@@ -8,6 +8,8 @@
 #include <sys/wait.h>
 #include <sys/stat.h>
 
+#define MAX_PATH 1024
+
 typedef enum  {
     false,
     true
@@ -16,6 +18,7 @@ typedef enum  {
 boolean isDirExists(const char* path);
 char* getDirName(const char* path);
 void __mkdir(const char* dirName);
+void print_cwd();
 
 int main(int argc, char** argv)
 {
@@ -38,6 +41,8 @@ int main(int argc, char** argv)
     }
     if (!isDirExists(argv[2]))
         __mkdir(destDirName);
+
+    print_cwd();
 
     free(srcDirName);
     free(destDirName);
@@ -104,4 +109,18 @@ void __mkdir(const char* dirName)
                     exit(EXIT_FAILURE);
             }
     }
+}
+
+void print_cwd()
+{
+    char BUFFER[MAX_PATH];
+    char* cwd = getcwd(BUFFER, MAX_PATH);
+
+    if (cwd == NULL)
+    {
+        perror("The current working directory was more than 1024 characters long");
+        exit(EXIT_FAILURE);
+    }
+
+    printf("Current working directory: %s\n", BUFFER);
 }
