@@ -3,6 +3,7 @@
 
 #include <stdlib.h>
 #include <unistd.h>
+#include <dirent.h>
 
 #include <sys/types.h>
 #include <sys/wait.h>
@@ -17,13 +18,18 @@ typedef enum  {
 
 boolean isDirExists(const char* path);
 char* getDirName(const char* path);
+char* print_cwd();
 void __mkdir(const char* dirName);
-void print_cwd();
+void __cd(const char*);
+char* getFullPath(char* basePath, char* dirPath);
 
 int main(int argc, char** argv)
 {
     char* srcDirName = NULL;
     char* destDirName = NULL;
+    char* srcPath = NULL;
+    char* destPath = NULL;
+    char* cwd = NULL;
 
     if (argc != 3)
     {
@@ -42,10 +48,16 @@ int main(int argc, char** argv)
     if (!isDirExists(argv[2]))
         __mkdir(destDirName);
 
-    print_cwd();
+    cwd = print_cwd();
+
+    srcPath = getFullPath(cwd, srcDirName);
+    destPath = getFullPath(cwd, destDirName);
 
     free(srcDirName);
     free(destDirName);
+    free(srcPath);
+    free(destPath);
+    free(cwd);
 }
 
 boolean isDirExists(const char* path)
@@ -111,16 +123,42 @@ void __mkdir(const char* dirName)
     }
 }
 
-void print_cwd()
+char* print_cwd()
 {
-    char BUFFER[MAX_PATH];
-    char* cwd = getcwd(BUFFER, MAX_PATH);
+    char* buffer = (char*)malloc(MAX_PATH * sizeof(char));
 
-    if (cwd == NULL)
+    if (buffer == NULL)
+    {
+        perror("Malloc failed");
+        exit(EXIT_FAILURE);
+    }
+
+    if (getcwd(buffer, MAX_PATH) == NULL)
     {
         perror("The current working directory was more than 1024 characters long");
         exit(EXIT_FAILURE);
     }
 
-    printf("Current working directory: %s\n", BUFFER);
+    printf("Current working directory: %s\n", buffer);
+    return buffer;
+}
+
+void __cd(const char* path)
+{
+    if (chdir(path) != 0)
+    {
+        perror("chdir failed");
+        exit(EXIT_FAILURE);
+    }
+}
+
+char* getFullPath(char* basePath, char* dirPath)
+{
+    char* fullPath = (char*)malloc((strlen(basePath) + strlen(dirPath) + 2) * sizeof(char));
+
+    strcpy(fullPath, basePath);
+    strcat(fullPath, "/");
+    strcat(fullPath, dirPath);
+
+    return fullPath;
 }
