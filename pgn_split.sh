@@ -29,15 +29,16 @@ then
 fi
 
 COUNTER=0
-cat $SRC | while read line
+while read line
 do
     if [[ -n `echo $line | grep "\[Event "` ]]
     then
         if [[ $COUNTER -ne 0 ]]
         then
-            sed '${/^$/d;}' "$DEST/${SRC_NAME}_${COUNTER}.$SRC_EXT" > "$DEST/${SRC_NAME}_${COUNTER}.$SRC_EXT"
+            sed -i '${/^$/d;}' "$DEST/${SRC_NAME}_${COUNTER}.$SRC_EXT"
         fi
         ((COUNTER++))
     fi
     echo $line >> "$DEST/${SRC_NAME}_${COUNTER}.$SRC_EXT"
-done
+done < $SRC
+sed -i '${/^$/d;}' "$DEST/${SRC_NAME}_${COUNTER}.$SRC_EXT"
