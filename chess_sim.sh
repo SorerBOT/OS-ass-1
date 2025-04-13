@@ -92,11 +92,13 @@ perform_move() {
 
     local _PIECE="${WORKING_BOARD[$_FROM_ROW_IDX]:_FROM_COLUMN_IDX:1}"
 
+    # promotion
     if [[ -n "$_PROMOTION_PIECE" ]]
     then
         _PIECE="$_PROMOTION_PIECE"
     fi
 
+    # castling
     if [[ $_PIECE == "K" ||  $_PIECE == "k" ]]
     then
         local _COLUMN_DIFF=$((_TO_COLUMN_IDX - _FROM_COLUMN_IDX))
@@ -113,6 +115,19 @@ perform_move() {
                 local _CASTLING_PIECE="${WORKING_BOARD[$_FROM_ROW_IDX]:_TO_COLUMN_IDX-2:1}"
                 WORKING_BOARD[$_TO_ROW_IDX]="${WORKING_BOARD[$_TO_ROW_IDX]:0:_TO_COLUMN_IDX-2}.${WORKING_BOARD[$_TO_ROW_IDX]:_TO_COLUMN_IDX-1}"
                 WORKING_BOARD[$_TO_ROW_IDX]="${WORKING_BOARD[$_TO_ROW_IDX]:0:_TO_COLUMN_IDX+1}$_CASTLING_PIECE${WORKING_BOARD[$_TO_ROW_IDX]:_TO_COLUMN_IDX+2}"
+            fi
+        fi
+    fi
+
+    # en passant
+    if [[ $_PIECE == 'P' || $_PIECE == 'p' ]]
+    then
+        if (( _FROM_COLUMN_IDX != _TO_COLUMN_IDX ))
+        then
+            local _CAPTURED_PIECE="${WORKING_BOARD[$_TO_ROW_IDX]:_TO_COLUMN_IDX:1}"
+            if [[ $_CAPTURED_PIECE == "." ]]
+            then
+                WORKING_BOARD[$_FROM_ROW_IDX]="${WORKING_BOARD[$_FROM_ROW_IDX]:0:_TO_COLUMN_IDX}.${WORKING_BOARD[$_FROM_ROW_IDX]:_TO_COLUMN_IDX+1}"
             fi
         fi
     fi
