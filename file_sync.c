@@ -18,10 +18,12 @@ typedef enum  {
 
 boolean isDirExists(const char* path);
 char* getDirName(const char* path);
-char* print_cwd();
+char* getFullPath(const char* basePath, char* path);
+
+char* __pwd();
+void __ls(const char* cwd);
 void __mkdir(const char* dirName);
-void __cd(const char*);
-char* getFullPath(char* basePath, char* dirPath);
+void __cd(const char* path);
 
 int main(int argc, char** argv)
 {
@@ -48,10 +50,18 @@ int main(int argc, char** argv)
     if (!isDirExists(argv[2]))
         __mkdir(destDirName);
 
-    cwd = print_cwd();
+    cwd = __pwd();
+    printf("Current working directory: %s\n", cwd);
 
     srcPath = getFullPath(cwd, srcDirName);
-    destPath = getFullPath(cwd, destDirName);
+    __cd(srcPath);
+
+    free(cwd);
+    cwd = __pwd();
+    __ls(cwd);
+    // destPath = getFullPath(cwd, destDirName);
+
+    
 
     free(srcDirName);
     free(destDirName);
@@ -123,7 +133,7 @@ void __mkdir(const char* dirName)
     }
 }
 
-char* print_cwd()
+char* __pwd()
 {
     char* buffer = (char*)malloc(MAX_PATH * sizeof(char));
 
@@ -139,7 +149,6 @@ char* print_cwd()
         exit(EXIT_FAILURE);
     }
 
-    printf("Current working directory: %s\n", buffer);
     return buffer;
 }
 
@@ -152,13 +161,49 @@ void __cd(const char* path)
     }
 }
 
-char* getFullPath(char* basePath, char* dirPath)
+char* getFullPath(const char* basePath, char* path)
 {
-    char* fullPath = (char*)malloc((strlen(basePath) + strlen(dirPath) + 2) * sizeof(char));
+    char* fullPath = (char*)malloc((strlen(basePath) + strlen(path) + 2) * sizeof(char));
 
     strcpy(fullPath, basePath);
     strcat(fullPath, "/");
-    strcat(fullPath, dirPath);
+    strcat(fullPath, path);
 
     return fullPath;
+}
+
+void __ls(const char* cwd)
+{
+    DIR* dir = NULL;
+    struct dirent *entry = NULL;
+    char* filePath = NULL;
+
+    struct stat fileStat;
+
+    dir = opendir(cwd);
+    if (dir == NULL)
+    {
+        perror("opendir failed");
+        exit(EXIT_FAILURE);
+    }
+
+    while ((entry = readdir(dir)) != NULL)
+    {
+        if (strcmp(entry->d_name, ".") == 0 || strcmp(entry->d_name, "..") == 0)
+            continue;
+
+        filePath = getFullPath(cwd, entry->d_name);
+        if (stat(filePath, &fileStat) == -1) {
+            perror("stat to read file data failed");
+            continue;
+        }
+
+        printf("Name: %s\n", entry->d_name);
+        printf("Type: %s\n", S_ISDIR(fileStat.st_mode) ? "Directory" : "File");
+        printf("Size: %ld bytes\n", fileStat.st_size);
+        printf("Permissions: %o\n", fileStat.st_mode & 0777);
+        printf("----------\n");
+    }
+
+    closedir(dir);
 }
