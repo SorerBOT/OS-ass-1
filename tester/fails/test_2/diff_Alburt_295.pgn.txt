@@ -1,0 +1,4 @@
+17c17
+< 37. Bd4 Rd7 38. Rf1+ Kg8 39. Rf4 Rd5 40. Kf2 Rg5 41. Kg3 Bf7 42. Rh6  1-0
+---
+> 37. Bd4 Rd7 38. Rf1+ Kg8 39. Rf4 Rd5 40. Kf2 Rg5 41. Kg3 Bf7 42. Rh6 1-0

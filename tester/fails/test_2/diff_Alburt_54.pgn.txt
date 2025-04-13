@@ -1,0 +1,4 @@
+17c17
+< 37. Bg2 Kg7 38. h4 Rf4 39. Re4 Rxe4 40. Bxe4 Rf4 41. Bg2  1/2-1/2
+---
+> 37. Bg2 Kg7 38. h4 Rf4 39. Re4 Rxe4 40. Bxe4 Rf4 41. Bg2 1/2-1/2

@@ -1,0 +1,4 @@
+18c18
+< 43. f4 Nd7 44. c6 Nb8 45. Kg3 Nxc6 46. f5 exf5 47. Bxf5 Kd6 48. Kf4  1/2-1/2
+---
+> 43. f4 Nd7 44. c6 Nb8 45. Kg3 Nxc6 46. f5 exf5 47. Bxf5 Kd6 48. Kf4 1/2-1/2

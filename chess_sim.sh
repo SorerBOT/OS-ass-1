@@ -10,6 +10,7 @@ then
 fi
 
 # priting metadata
+echo "Metadata from PGN file:"
 while read line
 do
     if [[ -n `echo $line | grep "\["` ]]
@@ -17,10 +18,6 @@ do
         echo $line
     fi
 done < $SRC
-
-# printing space
-echo
-
 # printing game
 
 MOV_ARRAY=($(python3 parse_moves.py "$(<$SRC)"))
@@ -150,7 +147,9 @@ print_board INITIAL_BOARD
  
 while true
 do
-    read -p "Press 'd' to move forward, 'a' to move back, 'w' to go to the start, 's' to go to the end, 'q' to quit: " CMD
+
+    echo -n "Press 'd' to move forward, 'a' to move back, 'w' to go to the start, 's' to go to the end, 'q' to quit: "
+    read -p "" CMD
 
     if [[ $CMD == 'd' ]]
     then

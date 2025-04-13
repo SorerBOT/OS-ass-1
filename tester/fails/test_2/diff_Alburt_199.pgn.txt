@@ -1,0 +1,4 @@
+19c19
+< 51. Rd1 Rd6 52. Rxd6 Kxd6 53. Kg3 Ke5 54. Kf2 h5 55. Kg3 Kf5  0-1
+---
+> 51. Rd1 Rd6 52. Rxd6 Kxd6 53. Kg3 Ke5 54. Kf2 h5 55. Kg3 Kf5 0-1

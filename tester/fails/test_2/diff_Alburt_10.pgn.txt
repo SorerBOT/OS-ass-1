@@ -1,0 +1,4 @@
+14c14
+< 16. Qb1 Nd4 17. b4 Qh5 18. Re1 Nf3+ 19. gxf3 Qxf3 20. Re3 Qxf4 21. Qf1 Ng4 22. Rg3 Rxd3  0-1
+---
+> 16. Qb1 Nd4 17. b4 Qh5 18. Re1 Nf3+ 19. gxf3 Qxf3 20. Re3 Qxf4 21. Qf1 Ng4 22. Rg3 Rxd3 0-1

@@ -1,0 +1,4 @@
+21c21
+< 66. Nd3 Ra4 67. f4 Ra2+ 68. Kd1 Rb1+ 69. Nc1 Rf2 70. Rc3 Rxh2  0-1
+---
+> 66. Nd3 Ra4 67. f4 Ra2+ 68. Kd1 Rb1+ 69. Nc1 Rf2 70. Rc3 Rxh2 0-1

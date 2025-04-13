@@ -1,0 +1,4 @@
+15c15
+< 24. fxe5 c3 25. Rd4 Qg5+ 26. Kb1 Bb7 27. Bxb7 Rad8 28. Rhd1 a5 29. Qc7  1-0
+---
+> 24. fxe5 c3 25. Rd4 Qg5+ 26. Kb1 Bb7 27. Bxb7 Rad8 28. Rhd1 a5 29. Qc7 1-0

@@ -1,0 +1,4 @@
+14c14
+< 16. c5 Be7 17. Qc2 Bxd6 18. cxd6 Qxd6 19. Rfd1 Qb4 20. Qc3 Qb5  1-0
+---
+> 16. c5 Be7 17. Qc2 Bxd6 18. cxd6 Qxd6 19. Rfd1 Qb4 20. Qc3 Qb5 1-0

@@ -1,0 +1,4 @@
+21c21
+< 66. Kc5 Ra3 67. Kd6 Rb3 68. Kd7 Rb1 69. Kd6 Rh1 70. Kc6 Rh5 71. Kd6  1/2-1/2
+---
+> 66. Kc5 Ra3 67. Kd6 Rb3 68. Kd7 Rb1 69. Kd6 Rh1 70. Kc6 Rh5 71. Kd6 1/2-1/2

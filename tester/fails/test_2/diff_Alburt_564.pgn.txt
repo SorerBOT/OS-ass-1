@@ -1,0 +1,4 @@
+16c16
+< 31. Qd2 Nb4 32. Rb2 Rc8 33. Qe2 Rbc7 34. Rd1 Nc2 35. Rd2 Nxe3 36. Qxe3 Ba3 37. Rb1 Bc1  0-1
+---
+> 31. Qd2 Nb4 32. Rb2 Rc8 33. Qe2 Rbc7 34. Rd1 Nc2 35. Rd2 Nxe3 36. Qxe3 Ba3 37. Rb1 Bc1 0-1

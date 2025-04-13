@@ -1,0 +1,4 @@
+20c20
+< 58. Rc2 Be1 59. Rh2 Bg3 60. Re2 e5 61. dxe6+ Kxe6 62. Kc4 Bh4 63. Kd3 Kd5 64. Rh2  1-0
+---
+> 58. Rc2 Be1 59. Rh2 Bg3 60. Re2 e5 61. dxe6+ Kxe6 62. Kc4 Bh4 63. Kd3 Kd5 64. Rh2 1-0

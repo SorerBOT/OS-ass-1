@@ -1,0 +1,4 @@
+17c17
+< 37. Nxc5 Nd5 38. Rd7 Qxd7 39. Nxd7 Ne3 40. Qh3 Nxd1 41. Qh4 Ne3 42. Qg5+ Kh8 43. Qf6+  1/2-1/2
+---
+> 37. Nxc5 Nd5 38. Rd7 Qxd7 39. Nxd7 Ne3 40. Qh3 Nxd1 41. Qh4 Ne3 42. Qg5+ Kh8 43. Qf6+ 1/2-1/2

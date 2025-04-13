@@ -1,0 +1,4 @@
+23c23
+< 79. Rg8+ Kf3 80. Rf8+ Ke3 81. Re8+ Kd4 82. Rd8+ Kc5 83. Rg8 Ra1+  0-1
+---
+> 79. Rg8+ Kf3 80. Rf8+ Ke3 81. Re8+ Kd4 82. Rd8+ Kc5 83. Rg8 Ra1+ 0-1

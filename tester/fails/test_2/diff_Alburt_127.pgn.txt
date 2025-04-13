@@ -1,0 +1,4 @@
+19c19
+< 50. Kc6 Rxf2 51. Rxg6 Rf4 52. g3 Rg4 53. Rxg4 hxg4 54. Kd5 f4 55. Ke4 fxg3 56. Ke3  1-0
+---
+> 50. Kc6 Rxf2 51. Rxg6 Rf4 52. g3 Rg4 53. Rxg4 hxg4 54. Kd5 f4 55. Ke4 fxg3 56. Ke3 1-0

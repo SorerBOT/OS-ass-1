@@ -1,0 +1,4 @@
+17c17
+< 38. Kh3 Bf6 39. Qxc7 Rxc7 40. Nfe4 Qh6+ 41. Kg4 Rg7+ 42. Kf3 Qf4+  0-1
+---
+> 38. Kh3 Bf6 39. Qxc7 Rxc7 40. Nfe4 Qh6+ 41. Kg4 Rg7+ 42. Kf3 Qf4+ 0-1

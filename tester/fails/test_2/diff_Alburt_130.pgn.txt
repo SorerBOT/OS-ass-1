@@ -1,0 +1,4 @@
+16c16
+< 30. Nge4 Rxg1+ 31. Qxg1 Nf7 32. Qg6 Qd3 33. Rf5  1-0
+---
+> 30. Nge4 Rxg1+ 31. Qxg1 Nf7 32. Qg6 Qd3 33. Rf5 1-0

@@ -1,0 +1,4 @@
+18c18
+< 44. Ba3 Rb3 45. Bc5 Nf6 46. Bd4 Ne4 47. Re1 Qc2  0-1
+---
+> 44. Ba3 Rb3 45. Bc5 Nf6 46. Bd4 Ne4 47. Re1 Qc2 0-1

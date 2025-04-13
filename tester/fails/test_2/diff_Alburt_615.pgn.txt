@@ -1,0 +1,4 @@
+16c16
+< 30. Rf4 Kf8 31. Na5 Qc7 32. Rc1 d5 33. Nb3 Nc4 34. Rfxc4 bxc4 35. Nd4  0-1
+---
+> 30. Rf4 Kf8 31. Na5 Qc7 32. Rc1 d5 33. Nb3 Nc4 34. Rfxc4 bxc4 35. Nd4 0-1

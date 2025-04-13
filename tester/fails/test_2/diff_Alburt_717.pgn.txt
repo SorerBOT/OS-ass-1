@@ -1,0 +1,4 @@
+20c20
+< 59. Rxg7 Nxg7 60. b5 Nb8 61. Kc4 Nh5 62. b6 Nf6 63. Kb5 Nfd7 64. b7+ Kc7 65. cxd7  1-0
+---
+> 59. Rxg7 Nxg7 60. b5 Nb8 61. Kc4 Nh5 62. b6 Nf6 63. Kb5 Nfd7 64. b7+ Kc7 65. cxd7 1-0

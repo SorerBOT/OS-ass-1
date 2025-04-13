@@ -1,0 +1,4 @@
+21c21
+< 64. Ra7 Kg8 65. Re7 Rf1 66. Re8+ Kh7 67. Re5 Kg8 68. Ke7 Kg7 69. Ke6  1/2-1/2
+---
+> 64. Ra7 Kg8 65. Re7 Rf1 66. Re8+ Kh7 67. Re5 Kg8 68. Ke7 Kg7 69. Ke6 1/2-1/2

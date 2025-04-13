@@ -1,0 +1,4 @@
+18c18
+< 43. Nxb7 Rg8 44. b6 Rxg5 45. Na5 Rxg3 46. b7  1-0
+---
+> 43. Nxb7 Rg8 44. b6 Rxg5 45. Na5 Rxg3 46. b7 1-0

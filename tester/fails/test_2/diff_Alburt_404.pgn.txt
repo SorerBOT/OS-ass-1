@@ -1,0 +1,4 @@
+15c15
+< 23. Kxd1 Nd7 24. Ke2 Nf8 25. Nh3 Bxe3 26. Kxe3 Ne6  1/2-1/2
+---
+> 23. Kxd1 Nd7 24. Ke2 Nf8 25. Nh3 Bxe3 26. Kxe3 Ne6 1/2-1/2

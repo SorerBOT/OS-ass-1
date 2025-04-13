@@ -1,0 +1,4 @@
+17c17
+< 38. e5 Rxf1+ 39. Qxf1 Qxf1+ 40. Kxf1 Nf5 41. Ne7+  1-0
+---
+> 38. e5 Rxf1+ 39. Qxf1 Qxf1+ 40. Kxf1 Nf5 41. Ne7+ 1-0

@@ -1,0 +1,4 @@
+14c14
+< 16. Qxb7 Nd7 17. g4 Bg6 18. Qxc6 Rc8 19. Qb5 Rb8 20. Qc6 Rc8 21. Qb5 Rb8  1/2-1/2
+---
+> 16. Qxb7 Nd7 17. g4 Bg6 18. Qxc6 Rc8 19. Qb5 Rb8 20. Qc6 Rc8 21. Qb5 Rb8 1/2-1/2

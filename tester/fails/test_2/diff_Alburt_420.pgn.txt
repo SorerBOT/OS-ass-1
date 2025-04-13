@@ -1,0 +1,4 @@
+19c19
+< 51. Rd6+ Ke7 52. Rd1 Qc2 53. Qb7+ Kf6 54. Rd6+ Kg5 55. Qe7+ Kg4 56. Rd4+  1-0
+---
+> 51. Rd6+ Ke7 52. Rd1 Qc2 53. Qb7+ Kf6 54. Rd6+ Kg5 55. Qe7+ Kg4 56. Rd4+ 1-0

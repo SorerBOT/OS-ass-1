@@ -1,0 +1,4 @@
+16c16
+< 29. Nxh3 Rb8 30. b3 Rb4 31. Rc1 Rh4 32. Ng1 e5 33. Ne2 Rh2 34. Rf1 Rh3 35. Ng1 Rh1  0-1
+---
+> 29. Nxh3 Rb8 30. b3 Rb4 31. Rc1 Rh4 32. Ng1 e5 33. Ne2 Rh2 34. Rf1 Rh3 35. Ng1 Rh1 0-1

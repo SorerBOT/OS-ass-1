@@ -1,0 +1,4 @@
+20c20
+< 58. Nf4 Nf3 59. e6+ Ke8 60. Kg6 Ne5+ 61. Kxg7 Nxg4 62. Nd5 Kd8 63. Kf8  1-0
+---
+> 58. Nf4 Nf3 59. e6+ Ke8 60. Kg6 Ne5+ 61. Kxg7 Nxg4 62. Nd5 Kd8 63. Kf8 1-0

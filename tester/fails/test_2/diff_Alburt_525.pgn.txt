@@ -1,0 +1,4 @@
+15c15
+< 23. Rxc7 b6 24. b3 Rac8 25. Rb7 Rb8 26. Rc7 Rbc8 27. Rb7 Rb8 28. Rc7  1/2-1/2
+---
+> 23. Rxc7 b6 24. b3 Rac8 25. Rb7 Rb8 26. Rc7 Rbc8 27. Rb7 Rb8 28. Rc7 1/2-1/2

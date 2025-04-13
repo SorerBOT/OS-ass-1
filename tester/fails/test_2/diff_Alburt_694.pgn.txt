@@ -1,0 +1,4 @@
+13c13
+< 9. Ne1 h5 10. b5 Ne5 11. d4 Ng6 12. Bg5 h4 13. Nc3 Be6 14. Nc2 Qc7 15. b6 Qxc3 16. Rc1 axb6  0-1
+---
+> 9. Ne1 h5 10. b5 Ne5 11. d4 Ng6 12. Bg5 h4 13. Nc3 Be6 14. Nc2 Qc7 15. b6 Qxc3 16. Rc1 axb6 0-1

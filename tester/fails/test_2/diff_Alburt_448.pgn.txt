@@ -1,0 +1,4 @@
+18c18
+< 45. Re6 Kb4 46. Rxh6 e2 47. Rb6+ Kc3 48. Rb1 Kd2  0-1
+---
+> 45. Re6 Kb4 46. Rxh6 e2 47. Rb6+ Kc3 48. Rb1 Kd2 0-1

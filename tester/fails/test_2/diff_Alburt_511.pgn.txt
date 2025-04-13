@@ -1,0 +1,4 @@
+15c15
+< 23. Ng5 Nd7 24. Bd6 Nf6 25. e5 Rxd6 26. exd6 Qxa3 27. Qe4  1-0
+---
+> 23. Ng5 Nd7 24. Bd6 Nf6 25. e5 Rxd6 26. exd6 Qxa3 27. Qe4 1-0

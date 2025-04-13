@@ -1,0 +1,4 @@
+13c13
+< 9. Nd2 O-O 10. e4 dxe4 11. Ndxe4 Nxe4 12. Nxe4 Nf6 13. Qxb6  1/2-1/2
+---
+> 9. Nd2 O-O 10. e4 dxe4 11. Ndxe4 Nxe4 12. Nxe4 Nf6 13. Qxb6 1/2-1/2

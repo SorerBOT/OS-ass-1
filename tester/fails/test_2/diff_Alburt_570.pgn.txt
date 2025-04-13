@@ -1,0 +1,4 @@
+21c21
+< 65. Kxa5 Rf1 66. Rxg2+ Nxg2 67. c5 Nf4 68. c6 Rc1 69. Kb5 Ne6 70. Nc8 Nd4+ 71. Ka4 Nxc6  0-1
+---
+> 65. Kxa5 Rf1 66. Rxg2+ Nxg2 67. c5 Nf4 68. c6 Rc1 69. Kb5 Ne6 70. Nc8 Nd4+ 71. Ka4 Nxc6 0-1

@@ -1,0 +1,4 @@
+19c19
+< 51. Ke5 Rd2 52. Rf6+ Ke7 53. Rf7+ Ke8 54. Rxa7 Re1 55. a4 Re3 56. Rb7 Re1 57. Rxb6  1-0
+---
+> 51. Ke5 Rd2 52. Rf6+ Ke7 53. Rf7+ Ke8 54. Rxa7 Re1 55. a4 Re3 56. Rb7 Re1 57. Rxb6 1-0

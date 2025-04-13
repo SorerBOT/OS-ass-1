@@ -1,0 +1,4 @@
+15c15
+< 23. Bb2 Qxa2 24. Rcd1 Rxd5 25. Rxd5 Qxb2 26. Qd3 Qxf2+  0-1
+---
+> 23. Bb2 Qxa2 24. Rcd1 Rxd5 25. Rxd5 Qxb2 26. Qd3 Qxf2+ 0-1

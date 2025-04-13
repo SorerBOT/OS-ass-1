@@ -1,0 +1,4 @@
+15c15
+< 24. Ra3 Na2 25. Qb2 c4 26. Rxa2 Bxa2 27. Qxa2 Rxd7 28. Qxc4 Rd1+ 29. Kh2  1-0
+---
+> 24. Ra3 Na2 25. Qb2 c4 26. Rxa2 Bxa2 27. Qxa2 Rxd7 28. Qxc4 Rd1+ 29. Kh2 1-0

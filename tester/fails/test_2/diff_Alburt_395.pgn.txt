@@ -1,0 +1,4 @@
+19c19
+< 51. Re1 Qf3 52. Re3 Qc6 53. Rd1 c3 54. Ree1 Qf3 55. Rf1 Qxh3 56. Rf2 Qh2+ 57. Kf1 c2  0-1
+---
+> 51. Re1 Qf3 52. Re3 Qc6 53. Rd1 c3 54. Ree1 Qf3 55. Rf1 Qxh3 56. Rf2 Qh2+ 57. Kf1 c2 0-1

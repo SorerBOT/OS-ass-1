@@ -1,0 +1,4 @@
+21c21
+< 65. Re2 Ra4 66. Kf5 Rd4 67. Kg5 Rd2 68. Re5+ Kc4  0-1
+---
+> 65. Re2 Ra4 66. Kf5 Rd4 67. Kg5 Rd2 68. Re5+ Kc4 0-1

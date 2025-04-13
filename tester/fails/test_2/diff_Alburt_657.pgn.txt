@@ -1,0 +1,4 @@
+18c18
+< 44. Kd2 Kb3 45. Ne2 Kxa3 46. Nxd4 Kb2 47. Nb5 a3 48. Nxa3 Kxa3 49. Kc3 Ka2  0-1
+---
+> 44. Kd2 Kb3 45. Ne2 Kxa3 46. Nxd4 Kb2 47. Nb5 a3 48. Nxa3 Kxa3 49. Kc3 Ka2 0-1

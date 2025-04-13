@@ -1,0 +1,4 @@
+18c18
+< 42. Rd3 Rg2+ 43. Kf1 Raf2+ 44. Ke1 Rf6 45. Rb7 Rxh2 46. Rdd7 g4  0-1
+---
+> 42. Rd3 Rg2+ 43. Kf1 Raf2+ 44. Ke1 Rf6 45. Rb7 Rxh2 46. Rdd7 g4 0-1

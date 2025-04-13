@@ -1,0 +1,4 @@
+13c13
+< 9. Bb2 Nbd7 10. Ke2 Bb7 11. Nbd2 Ke7 12. Rhg1  1/2-1/2
+---
+> 9. Bb2 Nbd7 10. Ke2 Bb7 11. Nbd2 Ke7 12. Rhg1 1/2-1/2

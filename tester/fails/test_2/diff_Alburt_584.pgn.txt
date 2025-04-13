@@ -1,0 +1,4 @@
+18c18
+< 43. Kd3 Ke8 44. Ke4 Ke7 45. Kf3 Rd5 46. Kg4 Rd8 47. Rxd8 Kxd8 48. Kf3 h5 49. Ke4  1-0
+---
+> 43. Kd3 Ke8 44. Ke4 Ke7 45. Kf3 Rd5 46. Kg4 Rd8 47. Rxd8 Kxd8 48. Kf3 h5 49. Ke4 1-0

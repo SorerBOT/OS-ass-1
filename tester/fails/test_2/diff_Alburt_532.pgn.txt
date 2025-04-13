@@ -1,0 +1,4 @@
+16c16
+< 30. h4 Kh6 31. Rd6 g5 32. a4 gxh4 33. axb5 Rg7 34. Bf2  1-0
+---
+> 30. h4 Kh6 31. Rd6 g5 32. a4 gxh4 33. axb5 Rg7 34. Bf2 1-0

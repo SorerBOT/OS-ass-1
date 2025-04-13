@@ -1,0 +1,4 @@
+15c15
+< 22. h3 Bh5 23. Rxd7 Rxd7 24. Rd5 Be8 25. a3 g6 26. Nd6 Ne7 27. Rd2 b5  0-1
+---
+> 22. h3 Bh5 23. Rxd7 Rxd7 24. Rd5 Be8 25. a3 g6 26. Nd6 Ne7 27. Rd2 b5 0-1

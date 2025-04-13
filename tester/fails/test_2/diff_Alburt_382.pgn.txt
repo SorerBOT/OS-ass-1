@@ -1,0 +1,4 @@
+14c14
+< 16. Ba3 Nbd7 17. Rfc1 Nxc5 18. Bxc5 Be4 19. Qc3 Bxc5  1/2-1/2
+---
+> 16. Ba3 Nbd7 17. Rfc1 Nxc5 18. Bxc5 Be4 19. Qc3 Bxc5 1/2-1/2

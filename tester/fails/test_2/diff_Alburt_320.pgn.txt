@@ -1,0 +1,4 @@
+17c17
+< 38. Nf5+ gxf5 39. Qxg5+ Bxg5 40. Rc6 Bxc6  0-1
+---
+> 38. Nf5+ gxf5 39. Qxg5+ Bxg5 40. Rc6 Bxc6 0-1

@@ -1,0 +1,4 @@
+17c17
+< 36. axb4 c3 37. Bf1 d4 38. Bd3 Bf3 39. Ra1 c2 40. Rc1 Rc3  0-1
+---
+> 36. axb4 c3 37. Bf1 d4 38. Bd3 Bf3 39. Ra1 c2 40. Rc1 Rc3 0-1

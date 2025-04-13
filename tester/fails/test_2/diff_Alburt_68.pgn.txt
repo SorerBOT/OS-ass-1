@@ -1,0 +1,4 @@
+19c19
+< 49. Rf6 g5 50. Rxh6 Kxf4 51. Rxe6 Kg3 52. Rg6  0-1
+---
+> 49. Rf6 g5 50. Rxh6 Kxf4 51. Rxe6 Kg3 52. Rg6 0-1

@@ -1,0 +1,4 @@
+16c16
+< 29. Be4 Rf7 30. Qd2 Bf3 31. Bg6 Re7 32. Bb2 Ne5 33. Qf4 Bc6 34. Be4 Ng6  0-1
+---
+> 29. Be4 Rf7 30. Qd2 Bf3 31. Bg6 Re7 32. Bb2 Ne5 33. Qf4 Bc6 34. Be4 Ng6 0-1

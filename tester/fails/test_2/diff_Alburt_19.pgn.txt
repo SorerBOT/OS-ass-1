@@ -1,0 +1,4 @@
+14c14
+< 16. e5 d5 17. Bxd5 exd5 18. e6 Nde5 19. Nxe5 Nxe5 20. Bxe5  1-0
+---
+> 16. e5 d5 17. Bxd5 exd5 18. e6 Nde5 19. Nxe5 Nxe5 20. Bxe5 1-0

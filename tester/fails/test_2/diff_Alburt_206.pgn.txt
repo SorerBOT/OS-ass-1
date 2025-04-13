@@ -1,0 +1,4 @@
+24c24
+< 85. Kg6 Kf8 86. Nxh5 Nd6 87. Nf6 Nf7 88. Ng4 Nh8+ 89. Kf6 Nf7 90. Ne5 Nd6 91. Kg6  1-0
+---
+> 85. Kg6 Kf8 86. Nxh5 Nd6 87. Nf6 Nf7 88. Ng4 Nh8+ 89. Kf6 Nf7 90. Ne5 Nd6 91. Kg6 1-0

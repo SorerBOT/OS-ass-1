@@ -1,0 +1,4 @@
+14c14
+< 16. O-O Bb5 17. Re1 N8d7 18. f4 Na4 19. c4 Bc6 20. Bxa4 Bxa4 21. Nbc3 Bc6 22. Rad1 Rfd8  1/2-1/2
+---
+> 16. O-O Bb5 17. Re1 N8d7 18. f4 Na4 19. c4 Bc6 20. Bxa4 Bxa4 21. Nbc3 Bc6 22. Rad1 Rfd8 1/2-1/2

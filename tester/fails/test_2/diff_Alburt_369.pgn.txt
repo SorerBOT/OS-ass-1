@@ -1,0 +1,4 @@
+16c16
+< 31. Bh3 Ba6 32. Bd7 Bb5 33. Bxb5 Nxb5 34. g4 Bf8 35. a4 Nc7  1/2-1/2
+---
+> 31. Bh3 Ba6 32. Bd7 Bb5 33. Bxb5 Nxb5 34. g4 Bf8 35. a4 Nc7 1/2-1/2

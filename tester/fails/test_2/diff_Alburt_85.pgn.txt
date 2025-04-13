@@ -1,0 +1,4 @@
+22c22
+< 72. Ra2 Kb6 73. Ke6 Kc6 74. Kf6 Kd6 75. Kg6 Ke7 76. Re2+ Kd6 77. Ra2 Ke6 78. Re2+ Kd6  1/2-1/2
+---
+> 72. Ra2 Kb6 73. Ke6 Kc6 74. Kf6 Kd6 75. Kg6 Ke7 76. Re2+ Kd6 77. Ra2 Ke6 78. Re2+ Kd6 1/2-1/2

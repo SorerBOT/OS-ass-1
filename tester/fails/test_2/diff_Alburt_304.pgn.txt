@@ -1,0 +1,4 @@
+16c16
+< 31. Rf4 Nxe2+ 32. Nxe2 Rxe3 33. Qxe3 Qc5 34. Nd4 Nc6 35. f6 Nxd4 36. Rxd4 Qxd4  0-1
+---
+> 31. Rf4 Nxe2+ 32. Nxe2 Rxe3 33. Qxe3 Qc5 34. Nd4 Nc6 35. f6 Nxd4 36. Rxd4 Qxd4 0-1

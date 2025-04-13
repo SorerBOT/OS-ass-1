@@ -1,0 +1,4 @@
+17c17
+< 37. Rc1 Rc8 38. Rdc3 a6 39. e4 Rcd8 40. exd5+ Rxd5 41. Re1+  1/2-1/2
+---
+> 37. Rc1 Rc8 38. Rdc3 a6 39. e4 Rcd8 40. exd5+ Rxd5 41. Re1+ 1/2-1/2

@@ -1,0 +1,4 @@
+13c13
+< 9. d4 cxd4 10. Qxd4 Qxd4 11. Nxd4 a6 12. Ke2 Be7 13. Rhd1 O-O 14. Na4 Nd7 15. Nxe6  1/2-1/2
+---
+> 9. d4 cxd4 10. Qxd4 Qxd4 11. Nxd4 a6 12. Ke2 Be7 13. Rhd1 O-O 14. Na4 Nd7 15. Nxe6 1/2-1/2

@@ -1,0 +1,4 @@
+14c14
+< 15. Kc3 Rd8 16. Rad1 Rxd1 17. Rxd1 Bd7 18. f4 Rd8 19. c5 Bc8 20. Rxd8 Kxd8 21. Kd4 Ke7  1/2-1/2
+---
+> 15. Kc3 Rd8 16. Rad1 Rxd1 17. Rxd1 Bd7 18. f4 Rd8 19. c5 Bc8 20. Rxd8 Kxd8 21. Kd4 Ke7 1/2-1/2

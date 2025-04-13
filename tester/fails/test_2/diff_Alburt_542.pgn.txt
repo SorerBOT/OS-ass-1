@@ -1,0 +1,4 @@
+17c17
+< 37. Nxc7 Qb7 38. Qe7 Kg8 39. Bxg6 Ne5 40. Qd8+ Kg7  1-0
+---
+> 37. Nxc7 Qb7 38. Qe7 Kg8 39. Bxg6 Ne5 40. Qd8+ Kg7 1-0

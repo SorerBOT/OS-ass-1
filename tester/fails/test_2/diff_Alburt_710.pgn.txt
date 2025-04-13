@@ -1,0 +1,4 @@
+17c17
+< 38. Bxf6 Qd1+ 39. Kf2 Qd2+ 40. Kf3 Qd1+ 41. Ke3 Qc1+ 42. Ke2  1-0
+---
+> 38. Bxf6 Qd1+ 39. Kf2 Qd2+ 40. Kf3 Qd1+ 41. Ke3 Qc1+ 42. Ke2 1-0

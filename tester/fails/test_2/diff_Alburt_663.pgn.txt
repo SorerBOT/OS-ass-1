@@ -1,0 +1,4 @@
+19c19
+< 51. Bf8 c3 52. h7 Bxh7 53. Rxh7 c2 54. Ba3 c1=Q 55. Bxc1 Bxc1 56. Rg7  1/2-1/2
+---
+> 51. Bf8 c3 52. h7 Bxh7 53. Rxh7 c2 54. Ba3 c1=Q 55. Bxc1 Bxc1 56. Rg7 1/2-1/2

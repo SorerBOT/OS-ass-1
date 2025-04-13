@@ -1,0 +1,4 @@
+18c18
+< 44. Kxh5 Ka7 45. Bc4 R3d7 46. Bxb5 Rg7 47. Bd2 Rh8+ 48. Bh6 Bf4 49. Rc6 Rg5+ 50. Kh4  0-1
+---
+> 44. Kxh5 Ka7 45. Bc4 R3d7 46. Bxb5 Rg7 47. Bd2 Rh8+ 48. Bh6 Bf4 49. Rc6 Rg5+ 50. Kh4 0-1

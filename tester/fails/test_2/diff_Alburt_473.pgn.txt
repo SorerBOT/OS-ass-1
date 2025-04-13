@@ -1,0 +1,4 @@
+15c15
+< 24. Raa1 Qd7 25. Qf3 Nb4 26. b3 cxb3 27. Nxb3 Nc2 28. Rxc2 Rxb3 29. Qd1 O-O  1/2-1/2
+---
+> 24. Raa1 Qd7 25. Qf3 Nb4 26. b3 cxb3 27. Nxb3 Nc2 28. Rxc2 Rxb3 29. Qd1 O-O 1/2-1/2

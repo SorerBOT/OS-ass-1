@@ -1,0 +1,4 @@
+19c19
+< 52. Kxf2 Qxf5 53. Qe6+ Qxe6 54. Nxe6 Rg8  0-1
+---
+> 52. Kxf2 Qxf5 53. Qe6+ Qxe6 54. Nxe6 Rg8 0-1

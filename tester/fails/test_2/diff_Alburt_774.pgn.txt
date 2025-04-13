@@ -1,0 +1,4 @@
+16c16
+< 32. Ng3 Bc7 33. Rb7 Rxb7 34. Rxb7 Nb6 35. a7 Kh7 36. Ke2 Na8 37. Rb8  1-0
+---
+> 32. Ng3 Bc7 33. Rb7 Rxb7 34. Rxb7 Nb6 35. a7 Kh7 36. Ke2 Na8 37. Rb8 1-0

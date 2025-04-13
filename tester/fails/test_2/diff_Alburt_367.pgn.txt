@@ -1,0 +1,4 @@
+19c19
+< 52. gxh4 Ng6 53. Kg1 Nxh4 54. Qc3 Ne8 55. Qa3+ Kf7 56. Qb4 Ng6 57. Qa4 Qf4 58. Be2  1/2-1/2
+---
+> 52. gxh4 Ng6 53. Kg1 Nxh4 54. Qc3 Ne8 55. Qa3+ Kf7 56. Qb4 Ng6 57. Qa4 Qf4 58. Be2 1/2-1/2

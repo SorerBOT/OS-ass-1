@@ -1,0 +1,4 @@
+19c19
+< 50. Kf6 Kd2 51. Kxf7 Kxe2 52. Ke6 d3  0-1
+---
+> 50. Kf6 Kd2 51. Kxf7 Kxe2 52. Ke6 d3 0-1

@@ -1,0 +1,4 @@
+18c18
+< 43. Ke3 Ra7 44. Rd8+ Ke7 45. Rg8 Ra3+ 46. Kf2 Kf7 47. Rc8 Rh3 48. Rc7+ Kg8 49. Bc4+ Nxc4  1/2-1/2
+---
+> 43. Ke3 Ra7 44. Rd8+ Ke7 45. Rg8 Ra3+ 46. Kf2 Kf7 47. Rc8 Rh3 48. Rc7+ Kg8 49. Bc4+ Nxc4 1/2-1/2

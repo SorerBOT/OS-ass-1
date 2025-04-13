@@ -1,0 +1,4 @@
+16c16
+< 30. Qe2 Kh8 31. Kh3 Qg8 32. Nh4 Qg4+ 33. Qxg4 hxg4+ 34. Kxg4 Rxb2  0-1
+---
+> 30. Qe2 Kh8 31. Kh3 Qg8 32. Nh4 Qg4+ 33. Qxg4 hxg4+ 34. Kxg4 Rxb2 0-1

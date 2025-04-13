@@ -1,0 +1,4 @@
+17c17
+< 37. Ne8+ Kh8 38. Nf6 Qe2+ 39. Qxe2 Rxe2 40. Ne8 Rxb2 41. Nd6 Rb4 42. Nxf7+ Kg8  0-1
+---
+> 37. Ne8+ Kh8 38. Nf6 Qe2+ 39. Qxe2 Rxe2 40. Ne8 Rxb2 41. Nd6 Rb4 42. Nxf7+ Kg8 0-1

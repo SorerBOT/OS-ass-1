@@ -1,0 +1,4 @@
+17c17
+< 38. Rf1 Ne5 39. Qg3 d1=Q 40. Bxg5 Qxf1  0-1
+---
+> 38. Rf1 Ne5 39. Qg3 d1=Q 40. Bxg5 Qxf1 0-1

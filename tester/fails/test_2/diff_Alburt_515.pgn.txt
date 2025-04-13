@@ -1,0 +1,4 @@
+16c16
+< 31. Rd2 Rxd2 32. Ra8+ Bf8 33. Qxd2 g5 34. Qa5 g4 35. Nc4 Qe7 36. Nd6 Bd7 37. Qd8  1-0
+---
+> 31. Rd2 Rxd2 32. Ra8+ Bf8 33. Qxd2 g5 34. Qa5 g4 35. Nc4 Qe7 36. Nd6 Bd7 37. Qd8 1-0

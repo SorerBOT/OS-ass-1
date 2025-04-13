@@ -1,0 +1,4 @@
+15c15
+< 24. Bd3 Re8 25. Be4 Bf5 26. Rhe1 Kf7 27. d7 Bxe4 28. Rxe4 Qxe4 29. fxe4 Rd8 30. e5  1-0
+---
+> 24. Bd3 Re8 25. Be4 Bf5 26. Rhe1 Kf7 27. d7 Bxe4 28. Rxe4 Qxe4 29. fxe4 Rd8 30. e5 1-0

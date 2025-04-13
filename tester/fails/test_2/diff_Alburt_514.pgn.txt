@@ -1,0 +1,4 @@
+20c20
+< 58. a3 Ke6 59. Rc8 Bd7 60. Rc1 Bc8 61. Re1+ Kd7 62. Kf6 h4 63. Re7+ Kd8 64. Rh7  1-0
+---
+> 58. a3 Ke6 59. Rc8 Bd7 60. Rc1 Bc8 61. Re1+ Kd7 62. Kf6 h4 63. Re7+ Kd8 64. Rh7 1-0

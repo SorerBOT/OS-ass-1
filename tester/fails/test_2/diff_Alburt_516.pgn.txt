@@ -1,0 +1,4 @@
+14c14
+< 17. Kh2 Qxb7 18. Ng1 Qa6 19. Nxe2 Qxc4 20. Bf4 Qxe2 21. Bxa8 Rxa8 22. Bxd6 Qd3  0-1
+---
+> 17. Kh2 Qxb7 18. Ng1 Qa6 19. Nxe2 Qxc4 20. Bf4 Qxe2 21. Bxa8 Rxa8 22. Bxd6 Qd3 0-1

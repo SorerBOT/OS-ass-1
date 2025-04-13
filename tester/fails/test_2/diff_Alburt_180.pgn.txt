@@ -1,0 +1,4 @@
+18c18
+< 44. Bf2 Kxe7 45. Bxc5+ Kd7 46. b4 Be2 47. b5 h5 48. a6 Kc8 49. Be3 Rd6 50. Bd4  1-0
+---
+> 44. Bf2 Kxe7 45. Bxc5+ Kd7 46. b4 Be2 47. b5 h5 48. a6 Kc8 49. Be3 Rd6 50. Bd4 1-0

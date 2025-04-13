@@ -1,0 +1,4 @@
+17c17
+< 37. bxa3 Kf8 38. Rd5 a4 39. Rc5 Ne5 40. Ra5 Nc4 41. Bb4+  1-0
+---
+> 37. bxa3 Kf8 38. Rd5 a4 39. Rc5 Ne5 40. Ra5 Nc4 41. Bb4+ 1-0

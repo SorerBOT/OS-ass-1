@@ -1,0 +1,4 @@
+17c17
+< 36. a5 Ng5 37. Kc3 Nh3 38. Nxh3 gxh3  0-1
+---
+> 36. a5 Ng5 37. Kc3 Nh3 38. Nxh3 gxh3 0-1

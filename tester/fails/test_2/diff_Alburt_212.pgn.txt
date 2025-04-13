@@ -1,0 +1,4 @@
+16c16
+< 29. Kg2 Nxd2 30. Nxd8 Rxd8 31. Bd5  1-0
+---
+> 29. Kg2 Nxd2 30. Nxd8 Rxd8 31. Bd5 1-0

@@ -1,0 +1,4 @@
+15c15
+< 22. Rac1 Rb5 23. Bc3 f6 24. Kg2 a6 25. Ba1 Nb6 26. Bc3 Na4 27. Ba1 Nb6 28. Bc3  1/2-1/2
+---
+> 22. Rac1 Rb5 23. Bc3 f6 24. Kg2 a6 25. Ba1 Nb6 26. Bc3 Na4 27. Ba1 Nb6 28. Bc3 1/2-1/2

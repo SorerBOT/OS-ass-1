@@ -1,0 +1,4 @@
+21c21
+< 65. Qxh5 Nf6 66. Qh8+ Ng8 67. Qh7 Rf6 68. Kg2 Rf4 69. g7+  1-0
+---
+> 65. Qxh5 Nf6 66. Qh8+ Ng8 67. Qh7 Rf6 68. Kg2 Rf4 69. g7+ 1-0

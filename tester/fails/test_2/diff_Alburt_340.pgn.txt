@@ -1,0 +1,4 @@
+14c14
+< 16. Rc3 Rb6 17. Kd2 Rc6 18. Rhc1 Rhc8 19. Rxc6  1/2-1/2
+---
+> 16. Rc3 Rb6 17. Kd2 Rc6 18. Rhc1 Rhc8 19. Rxc6 1/2-1/2

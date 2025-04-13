@@ -1,0 +1,4 @@
+18c18
+< 44. Qxc5 Be6 45. b4 Rb7 46. b5 Rc8 47. Rc6 Rd8 48. Rc7  1-0
+---
+> 44. Qxc5 Be6 45. b4 Rb7 46. b5 Rc8 47. Rc6 Rd8 48. Rc7 1-0

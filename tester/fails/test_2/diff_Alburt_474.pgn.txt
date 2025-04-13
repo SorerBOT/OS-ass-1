@@ -1,0 +1,4 @@
+15c15
+< 23. Qg5+ Kg7 24. Qf6+ Kh6 25. Ne5 Rf8 26. f3 Qe3+ 27. Kh1 Nd7 28. Ng4+ Kh5 29. Ng3+  1-0
+---
+> 23. Qg5+ Kg7 24. Qf6+ Kh6 25. Ne5 Rf8 26. f3 Qe3+ 27. Kh1 Nd7 28. Ng4+ Kh5 29. Ng3+ 1-0

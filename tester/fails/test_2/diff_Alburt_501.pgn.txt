@@ -1,0 +1,4 @@
+16c16
+< 29. Kf3 Qf4+ 30. Ke2 Qxg4+ 31. Nf3 Rc8 32. Rg1 Qf5 33. Qxh6  0-1
+---
+> 29. Kf3 Qf4+ 30. Ke2 Qxg4+ 31. Nf3 Rc8 32. Rg1 Qf5 33. Qxh6 0-1

@@ -1,0 +1,4 @@
+15c15
+< 23. e4 a5 24. Rf1 Rae8 25. Rf6 Qd7 26. Raf1 R8e7 27. b3 Qc7 28. Qd3  1-0
+---
+> 23. e4 a5 24. Rf1 Rae8 25. Rf6 Qd7 26. Raf1 R8e7 27. b3 Qc7 28. Qd3 1-0

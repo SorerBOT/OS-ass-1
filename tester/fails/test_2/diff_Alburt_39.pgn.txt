@@ -1,0 +1,4 @@
+16c16
+< 29. Rxe7+ Nxe7 30. g4 h6 31. Ne4 Kf7 32. Kf2 Rf8 33. Kxf3 Nd5 34. Kg3  1/2-1/2
+---
+> 29. Rxe7+ Nxe7 30. g4 h6 31. Ne4 Kf7 32. Kf2 Rf8 33. Kxf3 Nd5 34. Kg3 1/2-1/2

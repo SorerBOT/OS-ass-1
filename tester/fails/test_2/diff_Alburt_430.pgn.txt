@@ -1,0 +1,4 @@
+20c20
+< 58. Qc7 Rd2 59. Qc8+ Kg6 60. Rg8+ Kf7 61. Qf8+ Ke6 62. Qe8+ Kf5 63. Qg6+ Ke6 64. Re8+  1-0
+---
+> 58. Qc7 Rd2 59. Qc8+ Kg6 60. Rg8+ Kf7 61. Qf8+ Ke6 62. Qe8+ Kf5 63. Qg6+ Ke6 64. Re8+ 1-0

@@ -1,0 +1,4 @@
+14c14
+< 16. Nb3 Rb8 17. Qc6 O-O 18. f4 Nc4 19. Na1 Na3  0-1
+---
+> 16. Nb3 Rb8 17. Qc6 O-O 18. f4 Nc4 19. Na1 Na3 0-1

@@ -1,0 +1,4 @@
+20c20
+< 57. Rg8 Rxa7 58. Kh4 Kf3 59. Kg5 f4 60. Rf8 Ra5+ 61. Rf5  1-0
+---
+> 57. Rg8 Rxa7 58. Kh4 Kf3 59. Kg5 f4 60. Rf8 Ra5+ 61. Rf5 1-0

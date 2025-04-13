@@ -1,0 +1,4 @@
+17c17
+< 37. Re2 Rxf4 38. Qxf4 Rxe2 39. Qg3+  1-0
+---
+> 37. Re2 Rxf4 38. Qxf4 Rxe2 39. Qg3+ 1-0

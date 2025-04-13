@@ -1,0 +1,4 @@
+18c18
+< 44. Rb4 Rd3+ 45. Rxd3 Rxd3+ 46. Ke2 Rc3 47. Rb7+ Kf6 48. Rb6+ Kf7 49. Rb7+  1/2-1/2
+---
+> 44. Rb4 Rd3+ 45. Rxd3 Rxd3+ 46. Ke2 Rc3 47. Rb7+ Kf6 48. Rb6+ Kf7 49. Rb7+ 1/2-1/2

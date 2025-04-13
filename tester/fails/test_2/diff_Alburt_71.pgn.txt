@@ -1,0 +1,4 @@
+17c17
+< 37. Bc2 Ra3 38. Bb1 Ra6 39. Bd3 Rf6+ 40. Kg2 Rb6 41. Kf3 Rb2 42. Bf1 Rb1  1/2-1/2
+---
+> 37. Bc2 Ra3 38. Bb1 Ra6 39. Bd3 Rf6+ 40. Kg2 Rb6 41. Kf3 Rb2 42. Bf1 Rb1 1/2-1/2

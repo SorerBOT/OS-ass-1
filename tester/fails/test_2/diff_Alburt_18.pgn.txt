@@ -1,0 +1,4 @@
+16c16
+< 29. Ne6 Ng7 30. Nxg7 Rxg7 31. Re8+ Kf7 32. Rbe1 Qxa2 33. Qg5  1-0
+---
+> 29. Ne6 Ng7 30. Nxg7 Rxg7 31. Re8+ Kf7 32. Rbe1 Qxa2 33. Qg5 1-0

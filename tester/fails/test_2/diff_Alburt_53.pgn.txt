@@ -1,0 +1,4 @@
+17c17
+< 36. Kg3 Rh5 37. Bg5 b5 38. Rg7 b4 39. Bf6 Nf1+ 40. Kg2 Rxh6  1-0
+---
+> 36. Kg3 Rh5 37. Bg5 b5 38. Rg7 b4 39. Bf6 Nf1+ 40. Kg2 Rxh6 1-0

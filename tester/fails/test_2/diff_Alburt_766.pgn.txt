@@ -1,0 +1,4 @@
+18c18
+< 44. Rxg8+ Qxg8 45. Qg3 Bg6 46. Qe3 Kh7 47. Bd2 Qf8 48. Ng3  1-0
+---
+> 44. Rxg8+ Qxg8 45. Qg3 Bg6 46. Qe3 Kh7 47. Bd2 Qf8 48. Ng3 1-0

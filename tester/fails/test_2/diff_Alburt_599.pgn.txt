@@ -1,0 +1,4 @@
+15c15
+< 23. Kxf2 Bxc5+ 24. Nxc5 Qxc5+ 25. Kf1 Bb5+ 26. Nxb5 Qxc2 27. Bxa8 Qd3+  0-1
+---
+> 23. Kxf2 Bxc5+ 24. Nxc5 Qxc5+ 25. Kf1 Bb5+ 26. Nxb5 Qxc2 27. Bxa8 Qd3+ 0-1

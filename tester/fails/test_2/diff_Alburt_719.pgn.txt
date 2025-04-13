@@ -1,0 +1,4 @@
+16c16
+< 30. Re1 dxe5 31. fxe5 Rfb8 32. Re2 R8b6 33. Qe3 Ra4 34. Rxa4 Qxa4  1-0
+---
+> 30. Re1 dxe5 31. fxe5 Rfb8 32. Re2 R8b6 33. Qe3 Ra4 34. Rxa4 Qxa4 1-0

@@ -1,0 +1,4 @@
+17c17
+< 36. Bxc6 bxc6 37. b4 g5 38. Re6 Rc8 39. Ne5 Nxe5 40. Rxe5 gxf4 41. gxf4 Rd8  1/2-1/2
+---
+> 36. Bxc6 bxc6 37. b4 g5 38. Re6 Rc8 39. Ne5 Nxe5 40. Rxe5 gxf4 41. gxf4 Rd8 1/2-1/2

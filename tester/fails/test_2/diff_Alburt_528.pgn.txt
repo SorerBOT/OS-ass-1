@@ -1,0 +1,4 @@
+14c14
+< 17. Bc3 Na6 18. Bxb5 Nb4 19. Bxb4 cxb4 20. Ne2 f5 21. O-O fxe4 22. Qxe4 g4 23. f4  1-0
+---
+> 17. Bc3 Na6 18. Bxb5 Nb4 19. Bxb4 cxb4 20. Ne2 f5 21. O-O fxe4 22. Qxe4 g4 23. f4 1-0

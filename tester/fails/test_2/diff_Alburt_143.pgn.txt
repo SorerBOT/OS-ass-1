@@ -1,0 +1,4 @@
+14c14
+< 16. e4 dxe3 17. Bxe3 Bxd5 18. Bxd5 Bxe3 19. fxe3 Rf8 20. Qb3 Qe7 21. e4 a4 22. Qc3 Rac8  1/2-1/2
+---
+> 16. e4 dxe3 17. Bxe3 Bxd5 18. Bxd5 Bxe3 19. fxe3 Rf8 20. Qb3 Qe7 21. e4 a4 22. Qc3 Rac8 1/2-1/2

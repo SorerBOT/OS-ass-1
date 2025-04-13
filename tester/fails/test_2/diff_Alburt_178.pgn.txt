@@ -1,0 +1,4 @@
+17c17
+< 37. Kxh1 Rxf5 38. Kg2 Kg5 39. Kf3 d5 40. cxd5  1-0
+---
+> 37. Kxh1 Rxf5 38. Kg2 Kg5 39. Kf3 d5 40. cxd5 1-0

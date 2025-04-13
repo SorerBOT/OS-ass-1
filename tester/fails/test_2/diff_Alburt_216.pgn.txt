@@ -1,0 +1,4 @@
+17c17
+< 37. Rf4 g6 38. g4 hxg4 39. fxg4 Qh4+ 40. Kg1 Rf6 41. Qd8  1-0
+---
+> 37. Rf4 g6 38. g4 hxg4 39. fxg4 Qh4+ 40. Kg1 Rf6 41. Qd8 1-0

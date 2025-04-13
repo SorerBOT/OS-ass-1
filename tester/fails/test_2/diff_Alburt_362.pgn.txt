@@ -1,0 +1,4 @@
+22c22
+< 73. Nf5 Ng6+ 74. Kg3 Ke4 75. Nh4 Ne7 76. Nf3 Ng6 77. Kf2 Kf4  1/2-1/2
+---
+> 73. Nf5 Ng6+ 74. Kg3 Ke4 75. Nh4 Ne7 76. Nf3 Ng6 77. Kf2 Kf4 1/2-1/2

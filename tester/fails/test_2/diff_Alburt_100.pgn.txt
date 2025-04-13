@@ -1,0 +1,4 @@
+13c13
+< 9. Rd1 Nc6 10. Nc3 a6 11. a3 Bd7 12. Bd2 Rhd8 13. Be1 Be8 14. Rxd8 Rxd8 15. Rd1 Rxd1  1/2-1/2
+---
+> 9. Rd1 Nc6 10. Nc3 a6 11. a3 Bd7 12. Bd2 Rhd8 13. Be1 Be8 14. Rxd8 Rxd8 15. Rd1 Rxd1 1/2-1/2

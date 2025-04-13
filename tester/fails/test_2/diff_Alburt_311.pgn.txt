@@ -1,0 +1,4 @@
+16c16
+< 29. Rxf7 a4 30. Re1 Kd8 31. bxa4 Rxa4 32. Rb1 Ra6 33. Rxh7  1-0
+---
+> 29. Rxf7 a4 30. Re1 Kd8 31. bxa4 Rxa4 32. Rb1 Ra6 33. Rxh7 1-0

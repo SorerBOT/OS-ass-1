@@ -1,0 +1,4 @@
+22c22
+< 72. Ra2+ Kf3 73. Ra3 Bf2 74. f5 Bxg3+ 75. Kh1 Bxh4 76. Kh2 Bf6 77. Kh3 Kf4  0-1
+---
+> 72. Ra2+ Kf3 73. Ra3 Bf2 74. f5 Bxg3+ 75. Kh1 Bxh4 76. Kh2 Bf6 77. Kh3 Kf4 0-1

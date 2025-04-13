@@ -1,0 +1,4 @@
+14c14
+< 16. Nxc5 Rb8 17. Bd2 Nfd5 18. Rac1 Rd8 19. Nxd5 Nxd5 20. e4 Nf6 21. Bf4  1-0
+---
+> 16. Nxc5 Rb8 17. Bd2 Nfd5 18. Rac1 Rd8 19. Nxd5 Nxd5 20. e4 Nf6 21. Bf4 1-0

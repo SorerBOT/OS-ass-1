@@ -1,0 +1,4 @@
+16c16
+< 31. Rxd8 Rxd8 32. c6 bxc6 33. Bxa6 Rb8 34. Bd3 Rxb4 35. Bxf5 gxf5 36. Rxf5  1/2-1/2
+---
+> 31. Rxd8 Rxd8 32. c6 bxc6 33. Bxa6 Rb8 34. Bd3 Rxb4 35. Bxf5 gxf5 36. Rxf5 1/2-1/2

@@ -1,0 +1,4 @@
+18c18
+< 44. Bxf8 Kxf8 45. Qd6+ Qe7 46. Qb8 Qb7 47. Qxe5  1-0
+---
+> 44. Bxf8 Kxf8 45. Qd6+ Qe7 46. Qb8 Qb7 47. Qxe5 1-0

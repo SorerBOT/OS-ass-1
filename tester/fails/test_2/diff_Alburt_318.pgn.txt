@@ -1,0 +1,4 @@
+17c17
+< 37. Kd2 Qf7 38. Kc3 Qf1 39. Qxg6 Qxh3 40. Qf7+ Kd8 41. Qf8+ Kc7 42. Qf7+ Kd8  1/2-1/2
+---
+> 37. Kd2 Qf7 38. Kc3 Qf1 39. Qxg6 Qxh3 40. Qf7+ Kd8 41. Qf8+ Kc7 42. Qf7+ Kd8 1/2-1/2

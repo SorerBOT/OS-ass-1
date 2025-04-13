@@ -1,0 +1,4 @@
+24c24
+< 86. Kd3 Qd1+ 87. Kc4 Qd2 88. Be4 Kg4 89. Bd5 Kg5 90. Kc5 Kf6 91. Kd6 Qd4  0-1
+---
+> 86. Kd3 Qd1+ 87. Kc4 Qd2 88. Be4 Kg4 89. Bd5 Kg5 90. Kc5 Kf6 91. Kd6 Qd4 0-1

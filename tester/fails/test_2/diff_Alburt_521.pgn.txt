@@ -1,0 +1,4 @@
+16c16
+< 29. Rfe3 Rc8 30. h4 Re7 31. h5+ Kxh5 32. Rg3 Rf8 33. Re4  1-0
+---
+> 29. Rfe3 Rc8 30. h4 Re7 31. h5+ Kxh5 32. Rg3 Rf8 33. Re4 1-0

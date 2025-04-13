@@ -1,0 +1,4 @@
+17c17
+< 37. Bc4 Ne8 38. Rxb6 Rxb6 39. Ra5 Nf6 40. Bd3 Nd7 41. Bb5 Nf6 42. f3  1/2-1/2
+---
+> 37. Bc4 Ne8 38. Rxb6 Rxb6 39. Ra5 Nf6 40. Bd3 Nd7 41. Bb5 Nf6 42. f3 1/2-1/2

@@ -1,0 +1,4 @@
+17c17
+< 38. Qxd5+ Qe6 39. Qb7 Qg6 40. Qd5+ Kf8 41. b5 Qf7 42. Qd6+  1-0
+---
+> 38. Qxd5+ Qe6 39. Qb7 Qg6 40. Qd5+ Kf8 41. b5 Qf7 42. Qd6+ 1-0

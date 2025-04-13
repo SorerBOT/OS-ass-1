@@ -1,0 +1,4 @@
+20c20
+< 58. Rf4 Kd7 59. Rf6 Ke7 60. Rxg6 Kf7 61. h5 Rb5 62. Kh4 Rb8 63. Kg5  1/2-1/2
+---
+> 58. Rf4 Kd7 59. Rf6 Ke7 60. Rxg6 Kf7 61. h5 Rb5 62. Kh4 Rb8 63. Kg5 1/2-1/2

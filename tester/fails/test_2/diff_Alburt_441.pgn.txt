@@ -1,0 +1,4 @@
+20c20
+< 56. Kc1 Be3+ 57. Kb2 e4 58. Re1 Bd4+ 59. Kc1 Bc5 60. Re2 h4 61. Kb2 Rc7  0-1
+---
+> 56. Kc1 Be3+ 57. Kb2 e4 58. Re1 Bd4+ 59. Kc1 Bc5 60. Re2 h4 61. Kb2 Rc7 0-1

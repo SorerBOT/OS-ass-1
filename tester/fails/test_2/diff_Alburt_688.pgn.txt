@@ -1,0 +1,4 @@
+20c20
+< 58. Ra7 Rh2+ 59. Kg5 Rxh6 60. Rxf7+ Kg8 61. Re7 Ra6 62. Re6 Ra7  1/2-1/2
+---
+> 58. Ra7 Rh2+ 59. Kg5 Rxh6 60. Rxf7+ Kg8 61. Re7 Ra6 62. Re6 Ra7 1/2-1/2

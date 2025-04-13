@@ -1,0 +1,4 @@
+18c18
+< 43. Ke5 Bb3 44. Kf6 Kxb6 45. Kxg5 Kc5 46. Kf6 Kd4 47. Kg7  1/2-1/2
+---
+> 43. Ke5 Bb3 44. Kf6 Kxb6 45. Kxg5 Kc5 46. Kf6 Kd4 47. Kg7 1/2-1/2

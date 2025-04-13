@@ -1,0 +1,4 @@
+17c17
+< 37. a7 Nd4 38. Qe3 Qxe3 39. Nxe3 Nxb3  0-1
+---
+> 37. a7 Nd4 38. Qe3 Qxe3 39. Nxe3 Nxb3 0-1

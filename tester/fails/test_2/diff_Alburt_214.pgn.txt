@@ -1,0 +1,4 @@
+17c17
+< 36. Kh2 Nc3 37. Be5 Nd5 38. Qd6 Re8 39. Rb3 Qe1 40. Bb2 Qe4 41. Rf3  1/2-1/2
+---
+> 36. Kh2 Nc3 37. Be5 Nd5 38. Qd6 Re8 39. Rb3 Qe1 40. Bb2 Qe4 41. Rf3 1/2-1/2

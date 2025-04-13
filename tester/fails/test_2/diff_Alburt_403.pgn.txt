@@ -1,0 +1,4 @@
+21c21
+< 65. Kf4 Qe4+ 66. Kg3 Qe5+ 67. Qxe5+ Kxe5 68. Kf3 Kd4  0-1
+---
+> 65. Kf4 Qe4+ 66. Kg3 Qe5+ 67. Qxe5+ Kxe5 68. Kf3 Kd4 0-1

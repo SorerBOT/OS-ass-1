@@ -1,0 +1,4 @@
+17c17
+< 37. Kd3 Qxf2 38. Qd6 Nh7 39. Qe5+ Nf6 40. Reh8  1-0
+---
+> 37. Kd3 Qxf2 38. Qd6 Nh7 39. Qe5+ Nf6 40. Reh8 1-0

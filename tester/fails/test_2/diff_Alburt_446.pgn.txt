@@ -1,0 +1,4 @@
+19c19
+< 51. Nd3 dxe5 52. fxe5 Nd8 53. Kf4 Ke7 54. Ke4 Nf7 55. Nc5 Nd8  1/2-1/2
+---
+> 51. Nd3 dxe5 52. fxe5 Nd8 53. Kf4 Ke7 54. Ke4 Nf7 55. Nc5 Nd8 1/2-1/2

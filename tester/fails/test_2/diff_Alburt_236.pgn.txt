@@ -1,0 +1,4 @@
+17c17
+< 37. Be4 Rd7 38. Rc1 Re7 39. f3 Ne2 40. Rg1 Bxg1 41. Kg2 Ng3  0-1
+---
+> 37. Be4 Rd7 38. Rc1 Re7 39. f3 Ne2 40. Rg1 Bxg1 41. Kg2 Ng3 0-1

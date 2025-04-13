@@ -1,0 +1,4 @@
+16c16
+< 30. axb4 Rbe8 31. b5 c5 32. Nc6 Bxc6 33. bxc6 Re6 34. Nd5  1-0
+---
+> 30. axb4 Rbe8 31. b5 c5 32. Nc6 Bxc6 33. bxc6 Re6 34. Nd5 1-0

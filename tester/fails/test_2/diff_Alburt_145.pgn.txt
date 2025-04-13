@@ -1,0 +1,4 @@
+13c13
+< 9. Be2 Bb4+ 10. Bd2 Qa5 11. Bxb4 Qxb4+ 12. Qd2 Qxd2+ 13. Kxd2 Ke7 14. Ke3 b6  1/2-1/2
+---
+> 9. Be2 Bb4+ 10. Bd2 Qa5 11. Bxb4 Qxb4+ 12. Qd2 Qxd2+ 13. Kxd2 Ke7 14. Ke3 b6 1/2-1/2

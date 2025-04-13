@@ -1,0 +1,4 @@
+16c16
+< 30. Kh3 h5 31. f4 Be6+ 32. Kg2 Nd5 33. Kf3 Bc3 34. Rd1 Bb2  0-1
+---
+> 30. Kh3 h5 31. f4 Be6+ 32. Kg2 Nd5 33. Kf3 Bc3 34. Rd1 Bb2 0-1

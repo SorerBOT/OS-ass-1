@@ -1,0 +1,4 @@
+22c22
+< 72. Qxc7 Qg5+ 73. Qe5 Qg2+ 74. Qe4 Qg5+ 75. Kc4 Qc1+ 76. Kb3  1-0
+---
+> 72. Qxc7 Qg5+ 73. Qe5 Qg2+ 74. Qe4 Qg5+ 75. Kc4 Qc1+ 76. Kb3 1-0

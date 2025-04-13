@@ -1,0 +1,4 @@
+19c19
+< 51. c6 b6 52. f4 Rxf4 53. Rc1+ Kd2 54. Rb1 Kc2 55. Re1 b2 56. Re2+ Kc1  0-1
+---
+> 51. c6 b6 52. f4 Rxf4 53. Rc1+ Kd2 54. Rb1 Kc2 55. Re1 b2 56. Re2+ Kc1 0-1

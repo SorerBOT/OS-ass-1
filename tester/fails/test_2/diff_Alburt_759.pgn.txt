@@ -1,0 +1,4 @@
+20c20
+< 58. Rxh4+ Kxh4 59. Nf5+ Kxh3 60. Nxg3 Kxg3 61. g7 Bxg7 62. Kxd6  1/2-1/2
+---
+> 58. Rxh4+ Kxh4 59. Nf5+ Kxh3 60. Nxg3 Kxg3 61. g7 Bxg7 62. Kxd6 1/2-1/2

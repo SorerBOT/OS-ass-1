@@ -1,0 +1,4 @@
+18c18
+< 44. Qf3 Qg5 45. Rd1 Qe7 46. Qg4+ Kh6 47. Rb1 Qc7 48. Qf5 Qa7 49. h4 Qf2 50. Qg5+  1/2-1/2
+---
+> 44. Qf3 Qg5 45. Rd1 Qe7 46. Qg4+ Kh6 47. Rb1 Qc7 48. Qf5 Qa7 49. h4 Qf2 50. Qg5+ 1/2-1/2

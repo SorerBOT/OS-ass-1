@@ -1,0 +1,4 @@
+16c16
+< 30. Rxf5 exf5 31. Nf6+ Rxf6 32. gxf6 Nxd3  0-1
+---
+> 30. Rxf5 exf5 31. Nf6+ Rxf6 32. gxf6 Nxd3 0-1

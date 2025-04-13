@@ -1,0 +1,4 @@
+15c15
+< 23. Bxa6 Qa3+ 24. Ke2 Ba5 25. g3 Qxa2+ 26. Kf3 Bb6 27. Be2 Qe6 28. Kg2 Qxc6 29. Bd3 h5  1/2-1/2
+---
+> 23. Bxa6 Qa3+ 24. Ke2 Ba5 25. g3 Qxa2+ 26. Kf3 Bb6 27. Be2 Qe6 28. Kg2 Qxc6 29. Bd3 h5 1/2-1/2

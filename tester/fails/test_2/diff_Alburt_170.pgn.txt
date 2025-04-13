@@ -1,0 +1,4 @@
+17c17
+< 37. Ra4 Bf1 38. Rd4 Bb5 39. Kc1 Bf1 40. Kb2 Bb5 41. Kc1 Bf1 42. Kd2 Bb5  1/2-1/2
+---
+> 37. Ra4 Bf1 38. Rd4 Bb5 39. Kc1 Bf1 40. Kb2 Bb5 41. Kc1 Bf1 42. Kd2 Bb5 1/2-1/2

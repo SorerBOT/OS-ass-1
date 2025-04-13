@@ -1,0 +1,4 @@
+15c15
+< 22. fxe5 Bxc4 23. exf6+ Kxf6 24. bxc4 Rxc4 25. Rd6+ Kf5 26. Rd5+ Kf6 27. Rd6+  1/2-1/2
+---
+> 22. fxe5 Bxc4 23. exf6+ Kxf6 24. bxc4 Rxc4 25. Rd6+ Kf5 26. Rd5+ Kf6 27. Rd6+ 1/2-1/2

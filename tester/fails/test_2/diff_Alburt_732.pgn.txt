@@ -1,0 +1,4 @@
+13c13
+< 9. Bg3 Ngf6 10. c5 Qd8 11. Be2 Nh5 12. Be5 Nhf6 13. Bg3 Nh5 14. Be5 Nhf6 15. Bg3 Nh5  1/2-1/2
+---
+> 9. Bg3 Ngf6 10. c5 Qd8 11. Be2 Nh5 12. Be5 Nhf6 13. Bg3 Nh5 14. Be5 Nhf6 15. Bg3 Nh5 1/2-1/2

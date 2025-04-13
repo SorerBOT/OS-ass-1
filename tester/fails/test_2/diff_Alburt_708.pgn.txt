@@ -1,0 +1,4 @@
+15c15
+< 23. Na2 Nxa2 24. Rxa2 a4 25. Rca1 Nd7 26. Bxg7 Kxg7 27. Ra3 Nb6 28. bxa4 Nxa4  1/2-1/2
+---
+> 23. Na2 Nxa2 24. Rxa2 a4 25. Rca1 Nd7 26. Bxg7 Kxg7 27. Ra3 Nb6 28. bxa4 Nxa4 1/2-1/2

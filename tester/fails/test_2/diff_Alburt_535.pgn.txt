@@ -1,0 +1,4 @@
+17c17
+< 38. Ne6+ Kh7 39. Nf8+ Kg8 40. Qxg6+ Kxf8 41. Qh6+ Kg8 42. Qg6+ Kf8 43. Qh6+ Kg8  1/2-1/2
+---
+> 38. Ne6+ Kh7 39. Nf8+ Kg8 40. Qxg6+ Kxf8 41. Qh6+ Kg8 42. Qg6+ Kf8 43. Qh6+ Kg8 1/2-1/2

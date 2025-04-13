@@ -1,0 +1,4 @@
+17c17
+< 36. Kxg2 Kf4 37. Bxa5 Rd4 38. Bc7+ Kg5 39. Rg7+ Kh5 40. Rh7+ Kg6 41. Rg7+  1/2-1/2
+---
+> 36. Kxg2 Kf4 37. Bxa5 Rd4 38. Bc7+ Kg5 39. Rg7+ Kh5 40. Rh7+ Kg6 41. Rg7+ 1/2-1/2

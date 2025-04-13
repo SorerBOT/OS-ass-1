@@ -1,0 +1,4 @@
+21c21
+< 65. Bb3+ Kd6 66. Bxf7 Kxd7 67. Rxc5 Rf8 68. Rd5+ Kc6 69. Rxe5 Rxf7 70. Kf5  1-0
+---
+> 65. Bb3+ Kd6 66. Bxf7 Kxd7 67. Rxc5 Rf8 68. Rd5+ Kc6 69. Rxe5 Rxf7 70. Kf5 1-0

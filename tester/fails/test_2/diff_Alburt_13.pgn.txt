@@ -1,0 +1,4 @@
+16c16
+< 28. Rxe5 Rxe5 29. Qa5 Rd7 30. Qxa7 Ree7 31. c6 Rd8 32. Rb1 Nxd5 33. Rb7 Kf8 34. Qa5  1-0
+---
+> 28. Rxe5 Rxe5 29. Qa5 Rd7 30. Qxa7 Ree7 31. c6 Rd8 32. Rb1 Nxd5 33. Rb7 Kf8 34. Qa5 1-0

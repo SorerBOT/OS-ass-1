@@ -1,0 +1,4 @@
+15c15
+< 22. Bxd1 Kc7 23. Bb3 Kc6 24. Ke4 Kc5 25. Kd3 Nd5 26. g3 b5 27. a4 a6  1/2-1/2
+---
+> 22. Bxd1 Kc7 23. Bb3 Kc6 24. Ke4 Kc5 25. Kd3 Nd5 26. g3 b5 27. a4 a6 1/2-1/2

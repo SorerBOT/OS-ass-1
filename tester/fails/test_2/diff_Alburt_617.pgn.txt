@@ -1,0 +1,4 @@
+15c15
+< 24. Kh1 Ba6 25. Qc2 b3 26. Qxb3 Bf2 27. Rd1 Qd7 28. Qc2 Ng3+  0-1
+---
+> 24. Kh1 Ba6 25. Qc2 b3 26. Qxb3 Bf2 27. Rd1 Qd7 28. Qc2 Ng3+ 0-1

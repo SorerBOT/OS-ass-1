@@ -1,0 +1,4 @@
+17c17
+< 37. gxf4 Rg6+ 38. Rg2 Rxg2+ 39. Kxg2 Qh4 40. Qd4 Qg4+ 41. Kf2 a3 42. e7  1-0
+---
+> 37. gxf4 Rg6+ 38. Rg2 Rxg2+ 39. Kxg2 Qh4 40. Qd4 Qg4+ 41. Kf2 a3 42. e7 1-0

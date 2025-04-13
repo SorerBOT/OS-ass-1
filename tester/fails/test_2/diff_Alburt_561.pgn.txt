@@ -1,0 +1,4 @@
+16c16
+< 29. Nb5 Nxb5 30. axb5 Kc7 31. Kf2 Kd6 32. d4 Kd5 33. Ke3 Kd6 34. Kd3 Kd5 35. Ke3  1/2-1/2
+---
+> 29. Nb5 Nxb5 30. axb5 Kc7 31. Kf2 Kd6 32. d4 Kd5 33. Ke3 Kd6 34. Kd3 Kd5 35. Ke3 1/2-1/2

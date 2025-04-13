@@ -1,0 +1,4 @@
+19c19
+< 51. Nd2+ Kb5 52. Kd3 Bc7 53. Nf3 Bb8 54. h4 gxh4 55. Nxh4 Bc7 56. Nf5 exd4 57. exd4  1-0
+---
+> 51. Nd2+ Kb5 52. Kd3 Bc7 53. Nf3 Bb8 54. h4 gxh4 55. Nxh4 Bc7 56. Nf5 exd4 57. exd4 1-0

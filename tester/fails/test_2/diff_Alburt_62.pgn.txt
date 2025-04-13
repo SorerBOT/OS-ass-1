@@ -1,0 +1,4 @@
+18c18
+< 44. Nxg5 Qxg3+ 45. Qg2 Qxg2+ 46. Kxg2  0-1
+---
+> 44. Nxg5 Qxg3+ 45. Qg2 Qxg2+ 46. Kxg2 0-1

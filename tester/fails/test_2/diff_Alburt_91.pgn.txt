@@ -1,0 +1,4 @@
+16c16
+< 30. Rxa5 Be6 31. Rd6 Bf5 32. Nd2 Rxc3 33. Rxa7+  1/2-1/2
+---
+> 30. Rxa5 Be6 31. Rd6 Bf5 32. Nd2 Rxc3 33. Rxa7+ 1/2-1/2

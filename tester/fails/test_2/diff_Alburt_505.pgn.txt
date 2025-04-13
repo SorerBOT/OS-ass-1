@@ -1,0 +1,4 @@
+17c17
+< 35. Na5 Rxb2 36. Ndc4 Rxf2 37. Kh3 Bg2+ 38. Kh2 Bb7+ 39. Kg1 Bxa6 40. Kxf2 Bc3  0-1
+---
+> 35. Na5 Rxb2 36. Ndc4 Rxf2 37. Kh3 Bg2+ 38. Kh2 Bb7+ 39. Kg1 Bxa6 40. Kxf2 Bc3 0-1

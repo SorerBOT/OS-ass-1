@@ -1,0 +1,4 @@
+16c16
+< 30. Qc2 Qa1+ 31. Kh2 Be5+ 32. g3 Kd8 33. Qxe4 Qxa2+ 34. Kh3 Qd5 35. Qh4+ Kd7 36. Be4  1-0
+---
+> 30. Qc2 Qa1+ 31. Kh2 Be5+ 32. g3 Kd8 33. Qxe4 Qxa2+ 34. Kh3 Qd5 35. Qh4+ Kd7 36. Be4 1-0

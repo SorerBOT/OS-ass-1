@@ -1,0 +1,4 @@
+16c16
+< 30. h4 bxc4 31. dxc4 Rc7 32. Rd2 Qc5 33. Qb8 Rd7 34. Rd1 h5 35. Qe8 Qxc4  1/2-1/2
+---
+> 30. h4 bxc4 31. dxc4 Rc7 32. Rd2 Qc5 33. Qb8 Rd7 34. Rd1 h5 35. Qe8 Qxc4 1/2-1/2

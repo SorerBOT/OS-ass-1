@@ -1,0 +1,4 @@
+20c20
+< 57. Kh2 Qf4+ 58. Kh1 e3 59. Qc5+ Kh6 60. Qf8+ Kh5 61. Qc5+ Qf5 62. Qe7 Qf1+ 63. Kh2 e2  0-1
+---
+> 57. Kh2 Qf4+ 58. Kh1 e3 59. Qc5+ Kh6 60. Qf8+ Kh5 61. Qc5+ Qf5 62. Qe7 Qf1+ 63. Kh2 e2 0-1

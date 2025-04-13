@@ -1,0 +1,4 @@
+16c16
+< 29. Be4 Kd6 30. g4 c4 31. Rb1 Be5+ 32. Kh3 Kc5 33. Rf1 Ra1 34. Bb1 c3  0-1
+---
+> 29. Be4 Kd6 30. g4 c4 31. Rb1 Be5+ 32. Kh3 Kc5 33. Rf1 Ra1 34. Bb1 c3 0-1

@@ -1,0 +1,4 @@
+20c20
+< 58. Kc5 a6 59. Nc6+ Ke8 60. Nb4 Nc7 61. Kd6 Nb5+ 62. Kc6 Nd4+ 63. Kd5 Nf3 64. Nxa6  1/2-1/2
+---
+> 58. Kc5 a6 59. Nc6+ Ke8 60. Nb4 Nc7 61. Kd6 Nb5+ 62. Kc6 Nd4+ 63. Kd5 Nf3 64. Nxa6 1/2-1/2

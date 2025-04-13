@@ -1,0 +1,4 @@
+17c17
+< 38. Rh8+ Ke7 39. Qf3 f5 40. gxf6+ gxf6 41. Rh7+ Kf8 42. Qh3  1-0
+---
+> 38. Rh8+ Ke7 39. Qf3 f5 40. gxf6+ gxf6 41. Rh7+ Kf8 42. Qh3 1-0

@@ -1,0 +1,4 @@
+16c16
+< 30. gxf3 Rd8 31. Kg2 e5 32. Bc5 Rd5 33. Bb4 Bxb4 34. cxb4 Rd3 35. Rxc6 Rxa3 36. Rc5 Rb3  1/2-1/2
+---
+> 30. gxf3 Rd8 31. Kg2 e5 32. Bc5 Rd5 33. Bb4 Bxb4 34. cxb4 Rd3 35. Rxc6 Rxa3 36. Rc5 Rb3 1/2-1/2

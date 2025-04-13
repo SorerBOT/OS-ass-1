@@ -1,0 +1,4 @@
+16c16
+< 31. gxh5 gxh5 32. Re5 Bxe5 33. dxe5 Kh6 34. Qh8+  1-0
+---
+> 31. gxh5 gxh5 32. Re5 Bxe5 33. dxe5 Kh6 34. Qh8+ 1-0

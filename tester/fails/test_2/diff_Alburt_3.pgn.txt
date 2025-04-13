@@ -1,0 +1,4 @@
+15c15
+< 23. Qf4 Kg7 24. Bxh5 fxe5 25. Qf7+ Kh8 26. Qf6+ Kh7 27. Rxe5  1-0
+---
+> 23. Qf4 Kg7 24. Bxh5 fxe5 25. Qf7+ Kh8 26. Qf6+ Kh7 27. Rxe5 1-0

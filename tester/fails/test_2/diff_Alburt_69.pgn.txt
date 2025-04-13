@@ -1,0 +1,4 @@
+14c14
+< 17. Nh3 Bf8 18. Rhc1 Na6 19. Rab1 Be7 20. Nf2 Nc5 21. b4  1/2-1/2
+---
+> 17. Nh3 Bf8 18. Rhc1 Na6 19. Rab1 Be7 20. Nf2 Nc5 21. b4 1/2-1/2

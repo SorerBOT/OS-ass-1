@@ -1,0 +1,4 @@
+15c15
+< 22. bxc6 Nxc6 23. Bb5 Nde7 24. Ba6+  1-0
+---
+> 22. bxc6 Nxc6 23. Bb5 Nde7 24. Ba6+ 1-0

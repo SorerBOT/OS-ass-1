@@ -1,0 +1,4 @@
+19c19
+< 51. c5 g5 52. Kb4 gxf4 53. gxf4 Kf5 54. cxb6 cxb6 55. Rb7 Rc2 56. Rxb6  1/2-1/2
+---
+> 51. c5 g5 52. Kb4 gxf4 53. gxf4 Kf5 54. cxb6 cxb6 55. Rb7 Rc2 56. Rxb6 1/2-1/2

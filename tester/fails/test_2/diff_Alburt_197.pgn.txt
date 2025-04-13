@@ -1,0 +1,4 @@
+17c17
+< 37. Re1 Bf8 38. Re8 Rd1+ 39. Re1 Rd3 40. Re3 Rxe3 41. fxe3 f5 42. Bd7 Bc5  1/2-1/2
+---
+> 37. Re1 Bf8 38. Re8 Rd1+ 39. Re1 Rd3 40. Re3 Rxe3 41. fxe3 f5 42. Bd7 Bc5 1/2-1/2

@@ -1,0 +1,4 @@
+14c14
+< 16. Qe5 Qc8 17. Qxc7 Nd5 18. Qxc8 Raxc8  1/2-1/2
+---
+> 16. Qe5 Qc8 17. Qxc7 Nd5 18. Qxc8 Raxc8 1/2-1/2

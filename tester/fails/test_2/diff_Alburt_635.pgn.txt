@@ -1,0 +1,4 @@
+17c17
+< 37. Nd3 Rd7 38. Nxb4 Bxf2 39. Na6 Ba7 40. Nac5 Bxc5 41. Nxc5 Rd1 42. b4  1/2-1/2
+---
+> 37. Nd3 Rd7 38. Nxb4 Bxf2 39. Na6 Ba7 40. Nac5 Bxc5 41. Nxc5 Rd1 42. b4 1/2-1/2

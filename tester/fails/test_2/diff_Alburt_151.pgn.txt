@@ -1,0 +1,4 @@
+16c16
+< 30. g3 gxf4+ 31. gxf4 Bf8 32. Kf3 h6 33. Kg4 Bd6 34. h3 Bc7 35. h4 Bd6 36. h5 Be7  1/2-1/2
+---
+> 30. g3 gxf4+ 31. gxf4 Bf8 32. Kf3 h6 33. Kg4 Bd6 34. h3 Bc7 35. h4 Bd6 36. h5 Be7 1/2-1/2

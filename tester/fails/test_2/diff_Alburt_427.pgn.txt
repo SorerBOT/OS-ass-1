@@ -1,0 +1,4 @@
+17c17
+< 36. Nxd1 Rxd1 37. Rxg5+ Kf6 38. Rg4 Rd2+ 39. Ka3  1-0
+---
+> 36. Nxd1 Rxd1 37. Rxg5+ Kf6 38. Rg4 Rd2+ 39. Ka3 1-0

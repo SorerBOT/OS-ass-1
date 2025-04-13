@@ -1,0 +1,4 @@
+16c16
+< 30. Rd7 Qg5+ 31. Kf1 Kh7 32. Rxf7 Qd5 33. Qc6 Qxa2 34. Qe4+  1-0
+---
+> 30. Rd7 Qg5+ 31. Kf1 Kh7 32. Rxf7 Qd5 33. Qc6 Qxa2 34. Qe4+ 1-0

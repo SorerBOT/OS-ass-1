@@ -1,0 +1,4 @@
+16c16
+< 31. Qd2 Rf8 32. Ng5 Kg8 33. Rxh4 Rxh4 34. Rxh4 Rf5 35. Rg4  1-0
+---
+> 31. Qd2 Rf8 32. Ng5 Kg8 33. Rxh4 Rxh4 34. Rxh4 Rf5 35. Rg4 1-0

@@ -1,0 +1,4 @@
+16c16
+< 29. Rh4 Nf5 30. Rh7 Kg8 31. Rxf7 Kh8 32. Rxa7 Rc5 33. Rd1 Rc3 34. Rb1 Nd4 35. Kg2  1-0
+---
+> 29. Rh4 Nf5 30. Rh7 Kg8 31. Rxf7 Kh8 32. Rxa7 Rc5 33. Rd1 Rc3 34. Rb1 Nd4 35. Kg2 1-0

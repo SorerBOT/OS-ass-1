@@ -1,0 +1,4 @@
+19c19
+< 50. Rg8 Kb4 51. Rxg5 Nc5 52. Rg6 c3 53. Rxb6+ Ka3 54. Rc6  1-0
+---
+> 50. Rg8 Kb4 51. Rxg5 Nc5 52. Rg6 c3 53. Rxb6+ Ka3 54. Rc6 1-0

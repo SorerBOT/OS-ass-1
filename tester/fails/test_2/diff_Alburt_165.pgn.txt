@@ -1,0 +1,4 @@
+13c13
+< 9. Nxd5 Nxd5 10. Qxd5 Qe7+ 11. Be2 Be4 12. Qb5+ Qd7 13. O-O Qxb5 14. cxb5  1/2-1/2
+---
+> 9. Nxd5 Nxd5 10. Qxd5 Qe7+ 11. Be2 Be4 12. Qb5+ Qd7 13. O-O Qxb5 14. cxb5 1/2-1/2

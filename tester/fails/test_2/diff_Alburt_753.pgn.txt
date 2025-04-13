@@ -1,0 +1,4 @@
+17c17
+< 37. Kg1 Qg4+ 38. Kf1 Qh3+ 39. Kg1 Qg4+ 40. Kf1 Qxh4 41. Qb6 Rd4 42. Qc6 Qh3+ 43. Qg2 Qd3+  0-1
+---
+> 37. Kg1 Qg4+ 38. Kf1 Qh3+ 39. Kg1 Qg4+ 40. Kf1 Qxh4 41. Qb6 Rd4 42. Qc6 Qh3+ 43. Qg2 Qd3+ 0-1

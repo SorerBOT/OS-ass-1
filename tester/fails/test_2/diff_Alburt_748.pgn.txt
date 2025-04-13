@@ -1,0 +1,4 @@
+18c18
+< 44. Ke1 Qxg3+ 45. Kd1 Bxe5 46. dxe5 Qd3+ 47. Kc1 Rb8  0-1
+---
+> 44. Ke1 Qxg3+ 45. Kd1 Bxe5 46. dxe5 Qd3+ 47. Kc1 Rb8 0-1

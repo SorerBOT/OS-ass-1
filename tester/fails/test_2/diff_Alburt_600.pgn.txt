@@ -1,0 +1,4 @@
+18c18
+< 43. Ra3 b5 44. Ne3 Nd4 45. Nd5+ Kd6 46. Nxf6 c4+ 47. Kd2 b4 48. Rg3 c3+  0-1
+---
+> 43. Ra3 b5 44. Ne3 Nd4 45. Nd5+ Kd6 46. Nxf6 c4+ 47. Kd2 b4 48. Rg3 c3+ 0-1

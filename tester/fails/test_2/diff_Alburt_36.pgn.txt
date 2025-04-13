@@ -1,0 +1,4 @@
+20c20
+< 58. Ra7+ Kb2 59. Ra6 Kc1 60. Rc6+ Kb1 61. Rxd6 b2 62. Ne4 Rxg4 63. Kd3 Rxg5  1/2-1/2
+---
+> 58. Ra7+ Kb2 59. Ra6 Kc1 60. Rc6+ Kb1 61. Rxd6 b2 62. Ne4 Rxg4 63. Kd3 Rxg5 1/2-1/2

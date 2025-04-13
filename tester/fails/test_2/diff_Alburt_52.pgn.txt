@@ -1,0 +1,4 @@
+16c16
+< 29. Rxe7 Ra2 30. Rxe2 Rxc2 31. Kh1 Kg7 32. Rg2 c4 33. Nb1 Rxg2 34. Kxg2 Bb2  0-1
+---
+> 29. Rxe7 Ra2 30. Rxe2 Rxc2 31. Kh1 Kg7 32. Rg2 c4 33. Nb1 Rxg2 34. Kxg2 Bb2 0-1

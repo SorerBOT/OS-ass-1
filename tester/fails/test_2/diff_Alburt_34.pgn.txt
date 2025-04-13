@@ -1,0 +1,4 @@
+16c16
+< 30. Kh1 h5 31. Bf3 Ne3 32. fxe3 Qxe5 33. Rd8+ Nxd8 34. Rxd8+ Kh7 35. Rxc8 Qf5  0-1
+---
+> 30. Kh1 h5 31. Bf3 Ne3 32. fxe3 Qxe5 33. Rd8+ Nxd8 34. Rxd8+ Kh7 35. Rxc8 Qf5 0-1

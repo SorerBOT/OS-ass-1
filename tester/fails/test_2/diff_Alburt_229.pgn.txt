@@ -1,0 +1,4 @@
+18c18
+< 44. Kb2 Rf2+ 45. Ka3 Rf3 46. Kb2 Rf2+ 47. Kc1 Rf1+ 48. Kd2 Rf2+ 49. Kc1 Rf1+ 50. Kb2  1/2-1/2
+---
+> 44. Kb2 Rf2+ 45. Ka3 Rf3 46. Kb2 Rf2+ 47. Kc1 Rf1+ 48. Kd2 Rf2+ 49. Kc1 Rf1+ 50. Kb2 1/2-1/2

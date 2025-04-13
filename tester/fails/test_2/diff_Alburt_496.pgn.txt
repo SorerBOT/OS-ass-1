@@ -1,0 +1,4 @@
+19c19
+< 52. gxf5 Rxf5 53. Kc4 Rf1 54. Kc5 Rf5+ 55. Kb6 Rf6+ 56. Rc6  1-0
+---
+> 52. gxf5 Rxf5 53. Kc4 Rf1 54. Kc5 Rf5+ 55. Kb6 Rf6+ 56. Rc6 1-0

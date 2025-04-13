@@ -1,0 +1,4 @@
+16c16
+< 30. Rxc7 Rxc7 31. f5 gxf5 32. Qxh5+ Rh7 33. Qe8 Re7 34. Qh5+ Rh7 35. Qe8 Re7  1/2-1/2
+---
+> 30. Rxc7 Rxc7 31. f5 gxf5 32. Qxh5+ Rh7 33. Qe8 Re7 34. Qh5+ Rh7 35. Qe8 Re7 1/2-1/2

@@ -1,0 +1,4 @@
+20c20
+< 58. Ka7 g5 59. hxg5 Rxg5 60. b7 Rg8 61. Rc5 Re8 62. b8=Q Rxb8 63. Kxb8  1-0
+---
+> 58. Ka7 g5 59. hxg5 Rxg5 60. b7 Rg8 61. Rc5 Re8 62. b8=Q Rxb8 63. Kxb8 1-0

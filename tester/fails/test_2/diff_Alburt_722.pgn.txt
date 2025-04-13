@@ -1,0 +1,4 @@
+17c17
+< 36. Qc2 Rf2 37. Qc8 Qe5 38. Qc1+ Qf4 39. Qa1 Qf8 40. Qc1+ Qf4  1/2-1/2
+---
+> 36. Qc2 Rf2 37. Qc8 Qe5 38. Qc1+ Qf4 39. Qa1 Qf8 40. Qc1+ Qf4 1/2-1/2

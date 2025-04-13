@@ -1,0 +1,4 @@
+20c20
+< 58. Rb8 Nf6 59. Rb5 Ra4 60. Rb7+ Nd7 61. Rb5 Rc4 62. Rb1 Rd4 63. Kg5 Rxd5+ 64. Kg6 Nf8+  0-1
+---
+> 58. Rb8 Nf6 59. Rb5 Ra4 60. Rb7+ Nd7 61. Rb5 Rc4 62. Rb1 Rd4 63. Kg5 Rxd5+ 64. Kg6 Nf8+ 0-1

@@ -1,0 +1,4 @@
+15c15
+< 23. b5 Bxe3 24. bxc6 Bxc6 25. Bc3 d4 26. Bb4+ Kd7  1-0
+---
+> 23. b5 Bxe3 24. bxc6 Bxc6 25. Bc3 d4 26. Bb4+ Kd7 1-0

@@ -1,0 +1,4 @@
+22c22
+< 71. Rb1 Kg6 72. Rh1 Nf6 73. Kd4 Nd7 74. Kd5 Nf6+ 75. Ke5 Nd7+ 76. Ke6 Nf8+ 77. Ke7  1-0
+---
+> 71. Rb1 Kg6 72. Rh1 Nf6 73. Kd4 Nd7 74. Kd5 Nf6+ 75. Ke5 Nd7+ 76. Ke6 Nf8+ 77. Ke7 1-0

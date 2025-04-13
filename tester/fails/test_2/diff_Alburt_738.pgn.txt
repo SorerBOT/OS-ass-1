@@ -1,0 +1,4 @@
+17c17
+< 37. Bf4 Bxd4 38. Qxd4+ Qxd4 39. Rxd4 Re8 40. b4 Bf5 41. Rd5 Bh3 42. Rg5  1-0
+---
+> 37. Bf4 Bxd4 38. Qxd4+ Qxd4 39. Rxd4 Re8 40. b4 Bf5 41. Rd5 Bh3 42. Rg5 1-0

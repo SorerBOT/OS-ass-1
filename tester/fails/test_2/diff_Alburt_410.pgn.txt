@@ -1,0 +1,4 @@
+16c16
+< 31. Rxe1 Rd4 32. b3 Rd3 33. Nc4 Rxb3 34. Nxa5 Rc3 35. Re8+  1/2-1/2
+---
+> 31. Rxe1 Rd4 32. b3 Rd3 33. Nc4 Rxb3 34. Nxa5 Rc3 35. Re8+ 1/2-1/2

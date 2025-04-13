@@ -1,0 +1,4 @@
+17c17
+< 37. Qxa6 Qb4 38. Qe2 Qxb3 39. h3 d4 40. hxg4 d3 41. Qf3 d2 42. Rd1 Qxd1  0-1
+---
+> 37. Qxa6 Qb4 38. Qe2 Qxb3 39. h3 d4 40. hxg4 d3 41. Qf3 d2 42. Rd1 Qxd1 0-1

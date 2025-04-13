@@ -1,0 +1,4 @@
+16c16
+< 30. Rab4 Bxc5 31. dxc5 Rc8 32. Ra4 Rc6 33. h4 h5 34. Ra5 a6 35. Rd4 Rdc7 36. Kf3 Rxc5  1/2-1/2
+---
+> 30. Rab4 Bxc5 31. dxc5 Rc8 32. Ra4 Rc6 33. h4 h5 34. Ra5 a6 35. Rd4 Rdc7 36. Kf3 Rxc5 1/2-1/2

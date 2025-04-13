@@ -1,0 +1,4 @@
+13c13
+< 9. Be2 Bd6 10. Bh4 h6 11. Bg3 Be7 12. O-O O-O 13. Ne5 Nxe5 14. Bxe5 Nd7 15. Bg3  1/2-1/2
+---
+> 9. Be2 Bd6 10. Bh4 h6 11. Bg3 Be7 12. O-O O-O 13. Ne5 Nxe5 14. Bxe5 Nd7 15. Bg3 1/2-1/2

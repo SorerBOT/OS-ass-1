@@ -1,0 +1,4 @@
+14c14
+< 16. dxe5 Bxf1 17. Qxf1 Qc7 18. Nc3 Rad8 19. Nd5 Rxd5 20. Bxd5 Nxe5 21. f4 Ng4 22. Be4  1/2-1/2
+---
+> 16. dxe5 Bxf1 17. Qxf1 Qc7 18. Nc3 Rad8 19. Nd5 Rxd5 20. Bxd5 Nxe5 21. f4 Ng4 22. Be4 1/2-1/2

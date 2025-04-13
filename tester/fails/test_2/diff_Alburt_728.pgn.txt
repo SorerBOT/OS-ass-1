@@ -1,0 +1,4 @@
+17c17
+< 37. Nxf5 Qxf5 38. Qxf5 gxf5 39. Kf1  1-0
+---
+> 37. Nxf5 Qxf5 38. Qxf5 gxf5 39. Kf1 1-0

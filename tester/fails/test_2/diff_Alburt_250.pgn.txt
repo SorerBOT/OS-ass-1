@@ -1,0 +1,4 @@
+18c18
+< 44. Bd5+ Kd4 45. Rxc3 Kxc3 46. Ke3 Bb5 47. h4 Bc4 48. Bf3  1/2-1/2
+---
+> 44. Bd5+ Kd4 45. Rxc3 Kxc3 46. Ke3 Bb5 47. h4 Bc4 48. Bf3 1/2-1/2

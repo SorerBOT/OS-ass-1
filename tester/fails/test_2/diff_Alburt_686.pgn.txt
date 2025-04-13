@@ -1,0 +1,4 @@
+16c16
+< 30. a4 Rxh3 31. Rxb6 Rxb6 32. Qxb6 Nxf3 33. a5 Nxd2 34. Qc6  1-0
+---
+> 30. a4 Rxh3 31. Rxb6 Rxb6 32. Qxb6 Nxf3 33. a5 Nxd2 34. Qc6 1-0

@@ -1,0 +1,4 @@
+24c24
+< 85. Kh3 exd3 86. Rxh6+ Kg8 87. Rxd6 Rg3+ 88. Kh2 Rxf1 89. Kxg3 dxc2 90. Bh6 Rf4  0-1
+---
+> 85. Kh3 exd3 86. Rxh6+ Kg8 87. Rxd6 Rg3+ 88. Kh2 Rxf1 89. Kxg3 dxc2 90. Bh6 Rf4 0-1

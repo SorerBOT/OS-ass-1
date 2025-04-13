@@ -1,0 +1,4 @@
+17c17
+< 37. Kf3 fxe6 38. Rb7 b3 39. Rd1 b2 40. Rdd7 Kh8 41. Rd8+ Kh7 42. Rdd7 Kh8 43. Rd8+  1/2-1/2
+---
+> 37. Kf3 fxe6 38. Rb7 b3 39. Rd1 b2 40. Rdd7 Kh8 41. Rd8+ Kh7 42. Rdd7 Kh8 43. Rd8+ 1/2-1/2

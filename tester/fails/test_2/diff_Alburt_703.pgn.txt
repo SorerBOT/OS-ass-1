@@ -1,0 +1,4 @@
+14c14
+< 16. Qh3 Nf6 17. g4 Rxd2 18. Rxd2 Be3  0-1
+---
+> 16. Qh3 Nf6 17. g4 Rxd2 18. Rxd2 Be3 0-1

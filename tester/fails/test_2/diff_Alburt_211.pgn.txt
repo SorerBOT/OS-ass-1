@@ -1,0 +1,4 @@
+19c19
+< 51. Rb7 Kb4 52. Bf5 Rg8 53. Be4 Ka5 54. a7 Bd4+ 55. Kb3 Ra8 56. Kc4  1-0
+---
+> 51. Rb7 Kb4 52. Bf5 Rg8 53. Be4 Ka5 54. a7 Bd4+ 55. Kb3 Ra8 56. Kc4 1-0

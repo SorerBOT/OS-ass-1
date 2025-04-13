@@ -1,0 +1,4 @@
+18c18
+< 45. Rfe3 Rb3 46. Re8+ Nxe8 47. Rxe8+ Kh7 48. Qf5+  1-0
+---
+> 45. Rfe3 Rb3 46. Re8+ Nxe8 47. Rxe8+ Kh7 48. Qf5+ 1-0

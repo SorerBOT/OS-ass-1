@@ -1,0 +1,4 @@
+15c15
+< 22. Rxc7 h6 23. Be7 Rb8 24. Bd6 Nxb2 25. Bd5  1-0
+---
+> 22. Rxc7 h6 23. Be7 Rb8 24. Bd6 Nxb2 25. Bd5 1-0

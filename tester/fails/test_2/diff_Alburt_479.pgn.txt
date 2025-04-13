@@ -1,0 +1,4 @@
+15c15
+< 23. Rd2 Qe4 24. g3 Bxg3 25. Rd8+ Rxd8 26. Qxd8+ Kh7 27. Qf8 Bh2+ 28. Kxh2  1/2-1/2
+---
+> 23. Rd2 Qe4 24. g3 Bxg3 25. Rd8+ Rxd8 26. Qxd8+ Kh7 27. Qf8 Bh2+ 28. Kxh2 1/2-1/2

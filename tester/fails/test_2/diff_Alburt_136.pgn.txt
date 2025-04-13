@@ -1,0 +1,4 @@
+21c21
+< 63. Be8+ Kg7 64. Bb5 Bd4 65. Rc2 Bg1 66. Rc7+ Kf8 67. f5 Bh2 68. Rc4 Rb1 69. Rc8+  1-0
+---
+> 63. Be8+ Kg7 64. Bb5 Bd4 65. Rc2 Bg1 66. Rc7+ Kf8 67. f5 Bh2 68. Rc4 Rb1 69. Rc8+ 1-0

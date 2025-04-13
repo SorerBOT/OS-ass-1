@@ -1,0 +1,4 @@
+21c21
+< 64. h4 Kg8 65. Rb7 Nxh4 66. Ke7 e5 67. Kf6 e4 68. Re7 Nf5 69. Rxe4 Kh7 70. Ra4  1-0
+---
+> 64. h4 Kg8 65. Rb7 Nxh4 66. Ke7 e5 67. Kf6 e4 68. Re7 Nf5 69. Rxe4 Kh7 70. Ra4 1-0

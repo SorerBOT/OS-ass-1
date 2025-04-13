@@ -1,0 +1,4 @@
+17c17
+< 37. gxf6 Kxf6 38. Kxb3 Kg6 39. Kc3 Kh5 40. Kd3 Kxh4 41. Ke2  1/2-1/2
+---
+> 37. gxf6 Kxf6 38. Kxb3 Kg6 39. Kc3 Kh5 40. Kd3 Kxh4 41. Ke2 1/2-1/2

@@ -1,0 +1,4 @@
+16c16
+< 30. Rd7+ Kh6 31. a3 Ne5 32. Rc7 Nd3 33. b3 Rxa3 34. Rxb7 Ra1+ 35. Kg2 g4  0-1
+---
+> 30. Rd7+ Kh6 31. a3 Ne5 32. Rc7 Nd3 33. b3 Rxa3 34. Rxb7 Ra1+ 35. Kg2 g4 0-1

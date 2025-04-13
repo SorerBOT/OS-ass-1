@@ -1,0 +1,4 @@
+18c18
+< 45. Bd5 Kd3 46. Bc6 Kc4 47. Ke2 Kc5 48. Bd7 Kb6 49. Be6 Kc5 50. Bg8  1-0
+---
+> 45. Bd5 Kd3 46. Bc6 Kc4 47. Ke2 Kc5 48. Bd7 Kb6 49. Be6 Kc5 50. Bg8 1-0

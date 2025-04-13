@@ -1,0 +1,4 @@
+18c18
+< 45. Kb1 e4 46. Qh6 Kd5 47. h5 Rd4 48. Qc1 Rd3 49. Qh1 Kc4 50. h6 e3 51. Qf1 f4 52. Kc2  1-0
+---
+> 45. Kb1 e4 46. Qh6 Kd5 47. h5 Rd4 48. Qc1 Rd3 49. Qh1 Kc4 50. h6 e3 51. Qf1 f4 52. Kc2 1-0

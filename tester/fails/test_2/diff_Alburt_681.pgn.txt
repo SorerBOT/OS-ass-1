@@ -1,0 +1,4 @@
+20c20
+< 59. Be6+ Kg7 60. Kg4 Nc5 61. Kf5 b5 62. Rg2+ Kh8 63. Kxf6 b4 64. Rh2+  1-0
+---
+> 59. Be6+ Kg7 60. Kg4 Nc5 61. Kf5 b5 62. Rg2+ Kh8 63. Kxf6 b4 64. Rh2+ 1-0

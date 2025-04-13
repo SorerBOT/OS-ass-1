@@ -1,0 +1,4 @@
+17c17
+< 37. Qxg8 Qxa6 38. Qe8+ Kb6 39. Rxb5+ Qxb5 40. Qd8+ Kb7 41. Ra1  1-0
+---
+> 37. Qxg8 Qxa6 38. Qe8+ Kb6 39. Rxb5+ Qxb5 40. Qd8+ Kb7 41. Ra1 1-0

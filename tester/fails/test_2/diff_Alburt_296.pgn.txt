@@ -1,0 +1,4 @@
+19c19
+< 52. Kf4 Rh3 53. Rxb2 Rxh4+ 54. Kf3 Rh3+  0-1
+---
+> 52. Kf4 Rh3 53. Rxb2 Rxh4+ 54. Kf3 Rh3+ 0-1

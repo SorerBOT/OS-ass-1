@@ -1,0 +1,4 @@
+15c15
+< 23. Nb7 Re5 24. Nxd6 Ncxd5 25. Bxc5 Bg2+ 26. Bxg2 Rh5 27. h3 Nxg2 28. Qd3 Nge3  0-1
+---
+> 23. Nb7 Re5 24. Nxd6 Ncxd5 25. Bxc5 Bg2+ 26. Bxg2 Rh5 27. h3 Nxg2 28. Qd3 Nge3 0-1

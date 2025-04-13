@@ -1,0 +1,4 @@
+25c25
+< 92. Rh7 Rd1 93. Ke6+ Kc6 94. Rc7+ Kb5 95. Ra7 Kc6 96. Be5 Kb5  1/2-1/2
+---
+> 92. Rh7 Rd1 93. Ke6+ Kc6 94. Rc7+ Kb5 95. Ra7 Kc6 96. Be5 Kb5 1/2-1/2

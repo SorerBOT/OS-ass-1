@@ -1,0 +1,4 @@
+17c17
+< 37. Nxb3 c4 38. Na5 c3 39. Rxb1 cxb2 40. Nb3 Rxd3 41. Rxb2 Rxb3  0-1
+---
+> 37. Nxb3 c4 38. Na5 c3 39. Rxb1 cxb2 40. Nb3 Rxd3 41. Rxb2 Rxb3 0-1

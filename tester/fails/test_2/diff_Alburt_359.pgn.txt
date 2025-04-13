@@ -1,0 +1,4 @@
+14c14
+< 16. Nf5 g6 17. Ne3 Bg7 18. Nb3 Qb6 19. a4 Nd4 20. Qd3 Rac8  1/2-1/2
+---
+> 16. Nf5 g6 17. Ne3 Bg7 18. Nb3 Qb6 19. a4 Nd4 20. Qd3 Rac8 1/2-1/2

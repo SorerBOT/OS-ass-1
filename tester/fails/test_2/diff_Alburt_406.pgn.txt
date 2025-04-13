@@ -1,0 +1,4 @@
+13c13
+< 9. Bxc4 Be7 10. O-O cxd4 11. cxd4 Bf6 12. Qe2 O-O 13. Rd1 b6 14. Bb2  1/2-1/2
+---
+> 9. Bxc4 Be7 10. O-O cxd4 11. cxd4 Bf6 12. Qe2 O-O 13. Rd1 b6 14. Bb2 1/2-1/2

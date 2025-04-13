@@ -1,0 +1,4 @@
+17c17
+< 38. Kf3 d3 39. g5+ Ke7 40. Bxc6 Rxc6 41. Ke3 Rc3 42. Kd2 b4 43. Rc1 e5 44. fxe5  1-0
+---
+> 38. Kf3 d3 39. g5+ Ke7 40. Bxc6 Rxc6 41. Ke3 Rc3 42. Kd2 b4 43. Rc1 e5 44. fxe5 1-0

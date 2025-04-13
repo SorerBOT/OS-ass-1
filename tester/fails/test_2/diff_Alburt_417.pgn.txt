@@ -1,0 +1,4 @@
+13c13
+< 9. Be3 c4 10. dxc4 Nxc4 11. Qxd8+ Bxd8 12. Bc5 Be7 13. Bxe7  1/2-1/2
+---
+> 9. Be3 c4 10. dxc4 Nxc4 11. Qxd8+ Bxd8 12. Bc5 Be7 13. Bxe7 1/2-1/2

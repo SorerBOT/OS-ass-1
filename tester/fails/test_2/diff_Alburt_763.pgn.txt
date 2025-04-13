@@ -1,0 +1,4 @@
+18c18
+< 44. a6 Kg6 45. Rg8+ Kf5 46. Rh8 Ra3 47. Rxh7 e4 48. Kg2 exf3+ 49. Kg3 Rxa6  1/2-1/2
+---
+> 44. a6 Kg6 45. Rg8+ Kf5 46. Rh8 Ra3 47. Rxh7 e4 48. Kg2 exf3+ 49. Kg3 Rxa6 1/2-1/2

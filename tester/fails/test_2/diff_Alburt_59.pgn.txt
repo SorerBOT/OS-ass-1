@@ -1,0 +1,4 @@
+16c16
+< 29. Nbxc7 Nxc7 30. Nxc7 Rc8 31. Bf4 Be8 32. Kd3 Kf7 33. Bd6 Bc6  0-1
+---
+> 29. Nbxc7 Nxc7 30. Nxc7 Rc8 31. Bf4 Be8 32. Kd3 Kf7 33. Bd6 Bc6 0-1

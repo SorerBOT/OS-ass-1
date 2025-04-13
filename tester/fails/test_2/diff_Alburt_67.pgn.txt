@@ -1,0 +1,4 @@
+15c15
+< 23. Nxc8 Bxh1 24. Nd6 Qe7 25. Nf7+ Rxf7 26. Rxh1 Rf8 27. Qd3 Rc8 28. Kb1 Rxc4  0-1
+---
+> 23. Nxc8 Bxh1 24. Nd6 Qe7 25. Nf7+ Rxf7 26. Rxh1 Rf8 27. Qd3 Rc8 28. Kb1 Rxc4 0-1

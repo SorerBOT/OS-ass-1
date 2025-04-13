@@ -1,0 +1,4 @@
+16c16
+< 30. Nxd4 Nxd4 31. axb6 Nf3+ 32. Rxf3 Re1+ 33. Rxe1  1-0
+---
+> 30. Nxd4 Nxd4 31. axb6 Nf3+ 32. Rxf3 Re1+ 33. Rxe1 1-0

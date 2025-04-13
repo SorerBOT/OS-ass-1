@@ -1,0 +1,4 @@
+18c18
+< 45. Rxc4 Re2 46. Nf4 Rb2 47. Kxg6 Ne3 48. Rd4 Nxg2 49. Nxg2 Rxg2+ 50. Kf6  1-0
+---
+> 45. Rxc4 Re2 46. Nf4 Rb2 47. Kxg6 Ne3 48. Rd4 Nxg2 49. Nxg2 Rxg2+ 50. Kf6 1-0

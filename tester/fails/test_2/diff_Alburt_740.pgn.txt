@@ -1,0 +1,4 @@
+17c17
+< 36. Kh2 Rd5 37. Rc7 Rxb5 38. Rxf7 Kg6 39. Rc7 Rf5 40. Rxb7 Rxf2  1/2-1/2
+---
+> 36. Kh2 Rd5 37. Rc7 Rxb5 38. Rxf7 Kg6 39. Rc7 Rf5 40. Rxb7 Rxf2 1/2-1/2

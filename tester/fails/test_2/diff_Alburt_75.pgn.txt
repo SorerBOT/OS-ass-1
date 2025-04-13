@@ -1,0 +1,4 @@
+17c17
+< 37. Bg4 Kc5 38. fxe5 fxe5 39. Kd3 Be8 40. Bh3 Bf7 41. Bg4 g5 42. Bd1 Be6 43. g4  1/2-1/2
+---
+> 37. Bg4 Kc5 38. fxe5 fxe5 39. Kd3 Be8 40. Bh3 Bf7 41. Bg4 g5 42. Bd1 Be6 43. g4 1/2-1/2

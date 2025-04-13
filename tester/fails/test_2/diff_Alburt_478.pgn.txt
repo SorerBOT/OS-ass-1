@@ -1,0 +1,4 @@
+15c15
+< 23. Rxc3 Rcd8 24. Bf1 Rd4 25. b3 cxb3 26. Rxb3 Rhd8 27. Bxb5 axb5 28. Rxb5  1/2-1/2
+---
+> 23. Rxc3 Rcd8 24. Bf1 Rd4 25. b3 cxb3 26. Rxb3 Rhd8 27. Bxb5 axb5 28. Rxb5 1/2-1/2

@@ -1,0 +1,4 @@
+20c20
+< 58. Nxd6 Rxa3+ 59. Kb2 Rxe3 60. Ba6 Rg3 61. Rc8+  1-0
+---
+> 58. Nxd6 Rxa3+ 59. Kb2 Rxe3 60. Ba6 Rg3 61. Rc8+ 1-0

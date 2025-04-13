@@ -1,0 +1,4 @@
+22c22
+< 73. Ke3 Kh8 74. Be6 Kg7 75. Qc8 Bf8 76. Qc7+ Kh8 77. Qf7  1-0
+---
+> 73. Ke3 Kh8 74. Be6 Kg7 75. Qc8 Bf8 76. Qc7+ Kh8 77. Qf7 1-0

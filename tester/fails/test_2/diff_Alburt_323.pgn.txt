@@ -1,0 +1,4 @@
+17c17
+< 38. Qf2 Qa2 39. Rhc1 h4 40. R1c2 Qa1 41. Rc1 Qb2 42. R1c2 Qa1 43. Rc1 Qb2 44. R1c2  1/2-1/2
+---
+> 38. Qf2 Qa2 39. Rhc1 h4 40. R1c2 Qa1 41. Rc1 Qb2 42. R1c2 Qa1 43. Rc1 Qb2 44. R1c2 1/2-1/2

@@ -1,0 +1,4 @@
+17c17
+< 38. exf5 Rxe1+ 39. Bf1 Nh4 40. Qg3 Nxf5 41. Qf3 Re3  0-1
+---
+> 38. exf5 Rxe1+ 39. Bf1 Nh4 40. Qg3 Nxf5 41. Qf3 Re3 0-1

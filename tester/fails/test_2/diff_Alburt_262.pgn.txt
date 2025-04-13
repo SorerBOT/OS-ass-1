@@ -1,0 +1,4 @@
+20c20
+< 57. Bd5 Be3 58. Nb4 Kc5 59. Na6+ Kd4 60. Nb8 Bxc4 61. Bxc4 Kxc4 62. Kf3 Bg5  1/2-1/2
+---
+> 57. Bd5 Be3 58. Nb4 Kc5 59. Na6+ Kd4 60. Nb8 Bxc4 61. Bxc4 Kxc4 62. Kf3 Bg5 1/2-1/2

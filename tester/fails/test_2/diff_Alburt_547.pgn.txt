@@ -1,0 +1,4 @@
+13c13
+< 9. Bd3 Bxd3 10. Qxd3 Nbd7 11. cxd5 Nxd5 12. Nxd5 cxd5 13. Nf3 Qa5+ 14. Qd2  1/2-1/2
+---
+> 9. Bd3 Bxd3 10. Qxd3 Nbd7 11. cxd5 Nxd5 12. Nxd5 cxd5 13. Nf3 Qa5+ 14. Qd2 1/2-1/2

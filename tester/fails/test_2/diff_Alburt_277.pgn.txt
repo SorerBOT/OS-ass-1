@@ -1,0 +1,4 @@
+15c15
+< 23. Qd1 a3 24. Be2 Qa8 25. Bd4 Bf5 26. Bd3 Bxd3 27. Qxd3 axb2 28. Rxb2 Qa6  1/2-1/2
+---
+> 23. Qd1 a3 24. Be2 Qa8 25. Bd4 Bf5 26. Bd3 Bxd3 27. Qxd3 axb2 28. Rxb2 Qa6 1/2-1/2

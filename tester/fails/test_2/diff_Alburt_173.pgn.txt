@@ -1,0 +1,4 @@
+18c18
+< 44. Rxd7 Rd8 45. Rd3 Rd4+ 46. Ke3 b5 47. cxb5 axb5 48. a5 Rd8 49. Bxb5  1-0
+---
+> 44. Rxd7 Rd8 45. Rd3 Rd4+ 46. Ke3 b5 47. cxb5 axb5 48. a5 Rd8 49. Bxb5 1-0

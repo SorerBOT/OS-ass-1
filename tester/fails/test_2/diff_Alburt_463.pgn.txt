@@ -1,0 +1,4 @@
+18c18
+< 45. Qxg6+ Kf8 46. Qg8+ Ke7 47. Rg7 Rxg7 48. Qxg7+ Kd6 49. Qg6+  1-0
+---
+> 45. Qxg6+ Kf8 46. Qg8+ Ke7 47. Rg7 Rxg7 48. Qxg7+ Kd6 49. Qg6+ 1-0

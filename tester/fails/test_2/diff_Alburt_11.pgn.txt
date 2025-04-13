@@ -1,0 +1,4 @@
+17c17
+< 37. Rxb7 Qf3+ 38. Kh2 Bf6 39. Rb8 Bd8 40. Be5+ Rf6 41. Rxd8+  1-0
+---
+> 37. Rxb7 Qf3+ 38. Kh2 Bf6 39. Rb8 Bd8 40. Be5+ Rf6 41. Rxd8+ 1-0

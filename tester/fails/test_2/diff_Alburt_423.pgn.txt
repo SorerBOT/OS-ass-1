@@ -1,0 +1,4 @@
+18c18
+< 43. Rxa2 Rxd6 44. Re2+ Kd7 45. Re5 Ra6 46. Kd4 Ra4+ 47. Ke3 Ra2 48. h4 Ra3+ 49. Kf2  1/2-1/2
+---
+> 43. Rxa2 Rxd6 44. Re2+ Kd7 45. Re5 Ra6 46. Kd4 Ra4+ 47. Ke3 Ra2 48. h4 Ra3+ 49. Kf2 1/2-1/2

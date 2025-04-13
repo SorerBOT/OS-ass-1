@@ -1,0 +1,4 @@
+17c17
+< 37. fxg5 Rxf2 38. d5 Qf7 39. Rg1 Nd8 40. Qc5+  1-0
+---
+> 37. fxg5 Rxf2 38. d5 Qf7 39. Rg1 Nd8 40. Qc5+ 1-0

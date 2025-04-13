@@ -1,0 +1,4 @@
+17c17
+< 37. Rd5 Re5 38. Red1 f4 39. Qxe8+ Rxe8 40. Rxg5 Rb8  1-0
+---
+> 37. Rd5 Re5 38. Red1 f4 39. Qxe8+ Rxe8 40. Rxg5 Rb8 1-0

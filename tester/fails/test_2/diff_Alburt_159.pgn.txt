@@ -1,0 +1,4 @@
+16c16
+< 30. Rd2 Bd3 31. Nh3 Nxd5 32. f4 Nxf4 33. Nxf4 Qxf4 34. Qa4 Rxb2  0-1
+---
+> 30. Rd2 Bd3 31. Nh3 Nxd5 32. f4 Nxf4 33. Nxf4 Qxf4 34. Qa4 Rxb2 0-1

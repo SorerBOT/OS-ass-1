@@ -1,0 +1,4 @@
+14c14
+< 17. Bg5 Nf6 18. Nxd4 h6 19. Be3 a6 20. c3 Qc7 21. Nc2 Be6 22. Ba2 Re8  1-0
+---
+> 17. Bg5 Nf6 18. Nxd4 h6 19. Be3 a6 20. c3 Qc7 21. Nc2 Be6 22. Ba2 Re8 1-0

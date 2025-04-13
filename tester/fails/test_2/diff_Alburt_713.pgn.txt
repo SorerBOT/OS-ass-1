@@ -1,0 +1,4 @@
+19c19
+< 52. Be5 Rd2 53. Bxd4 Rxd4 54. Rc5 Bd3 55. Rc6 Bc4 56. Rc5 Kd6 57. Rc6+  1/2-1/2
+---
+> 52. Be5 Rd2 53. Bxd4 Rxd4 54. Rc5 Bd3 55. Rc6 Bc4 56. Rc5 Kd6 57. Rc6+ 1/2-1/2

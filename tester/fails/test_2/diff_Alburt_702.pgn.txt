@@ -1,0 +1,4 @@
+15c15
+< 24. Re2 b5 25. cxb5 Qxb5 26. Rd2 Qa5 27. Qd8 Qc3 28. Rd5 Rxd5  1-0
+---
+> 24. Re2 b5 25. cxb5 Qxb5 26. Rd2 Qa5 27. Qd8 Qc3 28. Rd5 Rxd5 1-0

@@ -1,0 +1,4 @@
+17c17
+< 36. Rb5 Rxh2 37. e5 Kf7 38. e6+ Ke7 39. Rb7+ Ke8 40. e7 Rae2 41. Rxe2 Rxe2 42. Rxa7 Re3  1/2-1/2
+---
+> 36. Rb5 Rxh2 37. e5 Kf7 38. e6+ Ke7 39. Rb7+ Ke8 40. e7 Rae2 41. Rxe2 Rxe2 42. Rxa7 Re3 1/2-1/2

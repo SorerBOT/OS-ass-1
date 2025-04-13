@@ -1,0 +1,4 @@
+19c19
+< 50. Kg2 Kf7 51. Kg3 g6 52. Kg4 Ke8 53. Bg3 Kd7 54. Be5 Be7  1/2-1/2
+---
+> 50. Kg2 Kf7 51. Kg3 g6 52. Kg4 Ke8 53. Bg3 Kd7 54. Be5 Be7 1/2-1/2

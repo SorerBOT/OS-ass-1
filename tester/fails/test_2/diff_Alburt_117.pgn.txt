@@ -1,0 +1,4 @@
+13c13
+< 9. e3 c6 10. Be2 O-O 11. O-O Re8 12. b4 Be6 13. Qd2 Nd7 14. Rfc1 Bf8  1/2-1/2
+---
+> 9. e3 c6 10. Be2 O-O 11. O-O Re8 12. b4 Be6 13. Qd2 Nd7 14. Rfc1 Bf8 1/2-1/2

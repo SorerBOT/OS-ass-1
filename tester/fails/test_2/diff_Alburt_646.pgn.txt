@@ -1,0 +1,4 @@
+19c19
+< 50. Rh7 Kg8 51. Ree7 Rxa4 52. Reg7+ Kf8 53. Rf7+ Kg8 54. Rhg7+  1/2-1/2
+---
+> 50. Rh7 Kg8 51. Ree7 Rxa4 52. Reg7+ Kf8 53. Rf7+ Kg8 54. Rhg7+ 1/2-1/2

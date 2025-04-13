@@ -1,0 +1,4 @@
+17c17
+< 37. Rf4 Rd3 38. Rb1 Raxa3 39. Rb7 Rab3 40. Rxd4 Rxe3 41. Re7 Red3 42. Rf4 e5 43. Rff7 Rd4  1/2-1/2
+---
+> 37. Rf4 Rd3 38. Rb1 Raxa3 39. Rb7 Rab3 40. Rxd4 Rxe3 41. Re7 Red3 42. Rf4 e5 43. Rff7 Rd4 1/2-1/2

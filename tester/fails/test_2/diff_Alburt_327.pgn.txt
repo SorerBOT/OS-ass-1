@@ -1,0 +1,4 @@
+17c17
+< 37. Bg5 Ra4 38. Qf7+ Kb6 39. Be3+ Ka6 40. Qb3 Re4 41. Qd3+  1-0
+---
+> 37. Bg5 Ra4 38. Qf7+ Kb6 39. Be3+ Ka6 40. Qb3 Re4 41. Qd3+ 1-0

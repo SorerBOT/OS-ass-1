@@ -1,0 +1,4 @@
+13c13
+< 9. gxh5 e6 10. Nc3 Bb4 11. Qc2 c5 12. Bd3 cxd4 13. exd4 f5 14. a3 Bxc3+ 15. bxc3  1/2-1/2
+---
+> 9. gxh5 e6 10. Nc3 Bb4 11. Qc2 c5 12. Bd3 cxd4 13. exd4 f5 14. a3 Bxc3+ 15. bxc3 1/2-1/2

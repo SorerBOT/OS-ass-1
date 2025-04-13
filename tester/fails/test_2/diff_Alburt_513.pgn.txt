@@ -1,0 +1,4 @@
+17c17
+< 37. Kc2 Nxd6 38. Nxd6 Nxc4 39. Nxc4 Bxd5 40. Be2  1-0
+---
+> 37. Kc2 Nxd6 38. Nxd6 Nxc4 39. Nxc4 Bxd5 40. Be2 1-0

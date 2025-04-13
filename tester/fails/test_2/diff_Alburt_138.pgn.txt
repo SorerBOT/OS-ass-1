@@ -1,0 +1,4 @@
+18c18
+< 44. h7 a5 45. Rg8+ Kb7 46. h8=Q Rxh8 47. Rxh8 a4 48. Kf4 b5 49. Ke3  1-0
+---
+> 44. h7 a5 45. Rg8+ Kb7 46. h8=Q Rxh8 47. Rxh8 a4 48. Kf4 b5 49. Ke3 1-0

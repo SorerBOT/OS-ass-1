@@ -1,0 +1,4 @@
+15c15
+< 23. Ree1 Nxd5 24. Nxd5 Bxd5 25. Rxe8+  1-0
+---
+> 23. Ree1 Nxd5 24. Nxd5 Bxd5 25. Rxe8+ 1-0

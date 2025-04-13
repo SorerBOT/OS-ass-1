@@ -1,0 +1,4 @@
+16c16
+< 29. Rd2 Rxe4+ 30. Kf1 Re3 31. Bb2 Qc4+ 32. Re2 f6 33. Qc2 Rxg3 34. hxg3  1-0
+---
+> 29. Rd2 Rxe4+ 30. Kf1 Re3 31. Bb2 Qc4+ 32. Re2 f6 33. Qc2 Rxg3 34. hxg3 1-0

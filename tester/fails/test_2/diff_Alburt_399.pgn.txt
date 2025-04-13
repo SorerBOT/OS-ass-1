@@ -1,0 +1,4 @@
+17c17
+< 38. Bg5 Be7 39. Bh6 Nb4 40. Kg2 Qc8 41. Qh3 Kg8 42. Be2 Bd8 43. Bg4 Rc6 44. Rc1 Nd3  1-0
+---
+> 38. Bg5 Be7 39. Bh6 Nb4 40. Kg2 Qc8 41. Qh3 Kg8 42. Be2 Bd8 43. Bg4 Rc6 44. Rc1 Nd3 1-0

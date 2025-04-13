@@ -1,0 +1,4 @@
+22c22
+< 72. Rf2 Be3 73. Rf3 Qa1+ 74. Kg2 Qg1+ 75. Kh3 Kh5 76. Rg3 Qf2 77. Rf3 Qh4+ 78. Kg2 Qg4+  0-1
+---
+> 72. Rf2 Be3 73. Rf3 Qa1+ 74. Kg2 Qg1+ 75. Kh3 Kh5 76. Rg3 Qf2 77. Rf3 Qh4+ 78. Kg2 Qg4+ 0-1

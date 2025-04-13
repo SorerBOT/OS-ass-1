@@ -1,0 +1,4 @@
+17c17
+< 37. Kh3 Bc3 38. Red1 Bc2 39. Rxc2 Rxc2 40. Rd8+ Kg7 41. Ra8 Re2 42. Bc4 Re5 43. Ra7+  1/2-1/2
+---
+> 37. Kh3 Bc3 38. Red1 Bc2 39. Rxc2 Rxc2 40. Rd8+ Kg7 41. Ra8 Re2 42. Bc4 Re5 43. Ra7+ 1/2-1/2

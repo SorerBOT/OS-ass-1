@@ -1,0 +1,4 @@
+17c17
+< 37. Bxc6 bxc6 38. Ng6 Qb7 39. Nc5 Bxc5 40. dxc5 Qa7 41. Qb2 Be8 42. Nf8 Qxa5 43. Qb7  1-0
+---
+> 37. Bxc6 bxc6 38. Ng6 Qb7 39. Nc5 Bxc5 40. dxc5 Qa7 41. Qb2 Be8 42. Nf8 Qxa5 43. Qb7 1-0

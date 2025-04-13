@@ -1,0 +1,4 @@
+16c16
+< 30. Rxf5 Rc1+ 31. Bf1 a3 32. Rd5 Nb4 33. Rd2 Ra1  0-1
+---
+> 30. Rxf5 Rc1+ 31. Bf1 a3 32. Rd5 Nb4 33. Rd2 Ra1 0-1

@@ -1,0 +1,4 @@
+21c21
+< 65. Rd8 Ke5 66. Ra8 Kf6 67. Ke2 Re7 68. Kd3 Re6 69. Rc8 Rd6+ 70. Kc2 Bb4  1/2-1/2
+---
+> 65. Rd8 Ke5 66. Ra8 Kf6 67. Ke2 Re7 68. Kd3 Re6 69. Rc8 Rd6+ 70. Kc2 Bb4 1/2-1/2

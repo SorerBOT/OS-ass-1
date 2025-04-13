@@ -1,0 +1,4 @@
+14c14
+< 16. Qxe5 Qf6 17. Qe3 O-O 18. O-O Bd7 19. Bc3 Qd6 20. Bc4 Rac8 21. Qd4 e5  0-1
+---
+> 16. Qxe5 Qf6 17. Qe3 O-O 18. O-O Bd7 19. Bc3 Qd6 20. Bc4 Rac8 21. Qd4 e5 0-1

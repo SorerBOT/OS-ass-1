@@ -1,0 +1,4 @@
+17c17
+< 36. Kh2 Bf2 37. Qe5+ Kh7 38. Qf4 Qg1+ 39. Kh3 Qh1+ 40. Kg4 f5+  0-1
+---
+> 36. Kh2 Bf2 37. Qe5+ Kh7 38. Qf4 Qg1+ 39. Kh3 Qh1+ 40. Kg4 f5+ 0-1

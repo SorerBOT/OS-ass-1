@@ -1,0 +1,4 @@
+16c16
+< 31. fxg3 Ne5 32. Rxd8+ Rxd8 33. Kf2 Bd5 34. Qd4 Ng4+ 35. Ke1 Kf7 36. a4 Ke6 37. a5  1/2-1/2
+---
+> 31. fxg3 Ne5 32. Rxd8+ Rxd8 33. Kf2 Bd5 34. Qd4 Ng4+ 35. Ke1 Kf7 36. a4 Ke6 37. a5 1/2-1/2

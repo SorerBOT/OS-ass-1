@@ -1,0 +1,4 @@
+19c19
+< 51. Kf1 Kg6 52. Rh8 d3 53. Rd8 Nxh2+ 54. Ke1 Nf3+ 55. Kd1 Kg5 56. Rd5 Kg4 57. Kc1 e3  0-1
+---
+> 51. Kf1 Kg6 52. Rh8 d3 53. Rd8 Nxh2+ 54. Ke1 Nf3+ 55. Kd1 Kg5 56. Rd5 Kg4 57. Kc1 e3 0-1

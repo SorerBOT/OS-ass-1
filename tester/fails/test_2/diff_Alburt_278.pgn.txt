@@ -1,0 +1,4 @@
+19c19
+< 50. Kg3 Rf1 51. Rh7 Rg1+ 52. Kh3 Rc1 53. Rxh6 Ke7 54. Rc6 Rd2 55. h6 Rf1 56. Bg2 Rff2  0-1
+---
+> 50. Kg3 Rf1 51. Rh7 Rg1+ 52. Kh3 Rc1 53. Rxh6 Ke7 54. Rc6 Rd2 55. h6 Rf1 56. Bg2 Rff2 0-1

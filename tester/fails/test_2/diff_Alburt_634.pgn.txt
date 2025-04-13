@@ -1,0 +1,4 @@
+15c15
+< 23. Ne4 Bxe4 24. Rxe4 Rf2 25. Qe8+ Nf8  0-1
+---
+> 23. Ne4 Bxe4 24. Rxe4 Rf2 25. Qe8+ Nf8 0-1

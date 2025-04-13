@@ -1,0 +1,4 @@
+20c20
+< 57. Kb3 h4 58. Kb4 Rh5 59. Kc3 h3 60. Rd1 Kg6 61. Kd4 h2 62. Rh1 Rh3  0-1
+---
+> 57. Kb3 h4 58. Kb4 Rh5 59. Kc3 h3 60. Rd1 Kg6 61. Kd4 h2 62. Rh1 Rh3 0-1

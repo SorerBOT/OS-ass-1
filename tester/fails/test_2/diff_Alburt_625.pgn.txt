@@ -1,0 +1,4 @@
+18c18
+< 44. fxg4 Ke7 45. Re2 Ne3 46. Ng3 Rd1+ 47. Qxd1 Nxd1 48. Nf5+ Ke8 49. e6 Ne3 50. Rd2 Nxf5  0-1
+---
+> 44. fxg4 Ke7 45. Re2 Ne3 46. Ng3 Rd1+ 47. Qxd1 Nxd1 48. Nf5+ Ke8 49. e6 Ne3 50. Rd2 Nxf5 0-1

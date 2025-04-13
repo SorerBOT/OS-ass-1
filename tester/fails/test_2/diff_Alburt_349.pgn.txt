@@ -1,0 +1,4 @@
+16c16
+< 30. Kf2 Rh2+ 31. Ke3 Nc1 32. Bxc7 Rxb2 33. Rxb3 Rxb3+ 34. Kd2 Nd3 35. Ba5 Nb4 36. Bxb4  1-0
+---
+> 30. Kf2 Rh2+ 31. Ke3 Nc1 32. Bxc7 Rxb2 33. Rxb3 Rxb3+ 34. Kd2 Nd3 35. Ba5 Nb4 36. Bxb4 1-0

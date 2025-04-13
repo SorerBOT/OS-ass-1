@@ -1,0 +1,4 @@
+16c16
+< 29. Re2 a5 30. Nd2 Rf8 31. Re6 Rc8 32. Bd4 Rc2 33. Ne4 f5 34. Nd6 Rc1+ 35. Kg2  1-0
+---
+> 29. Re2 a5 30. Nd2 Rf8 31. Re6 Rc8 32. Bd4 Rc2 33. Ne4 f5 34. Nd6 Rc1+ 35. Kg2 1-0

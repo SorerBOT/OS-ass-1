@@ -1,0 +1,4 @@
+16c16
+< 30. e4 dxe4 31. Ba2 Rf6 32. Rxf6 Qxf6 33. Qxe4 Qf2+ 34. Kh1 Qxa2  0-1
+---
+> 30. e4 dxe4 31. Ba2 Rf6 32. Rxf6 Qxf6 33. Qxe4 Qf2+ 34. Kh1 Qxa2 0-1

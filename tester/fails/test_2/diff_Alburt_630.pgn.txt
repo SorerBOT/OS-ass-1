@@ -1,0 +1,4 @@
+16c16
+< 29. Bxc4 Bxb1 30. Rxd6 Be4 31. Re6  1-0
+---
+> 29. Bxc4 Bxb1 30. Rxd6 Be4 31. Re6 1-0

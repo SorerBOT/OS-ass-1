@@ -1,0 +1,4 @@
+17c17
+< 38. Rc1 Bg5 39. c8=Q Rxc8 40. Rxc8+ Kg7 41. h4 Bxh4  1-0
+---
+> 38. Rc1 Bg5 39. c8=Q Rxc8 40. Rxc8+ Kg7 41. h4 Bxh4 1-0

@@ -1,0 +1,4 @@
+15c15
+< 23. Bf1 Bxc4 24. Rd7 Bf6 25. Ne4 b5 26. axb5 cxb5 27. Rb7 h5  1/2-1/2
+---
+> 23. Bf1 Bxc4 24. Rd7 Bf6 25. Ne4 b5 26. axb5 cxb5 27. Rb7 h5 1/2-1/2

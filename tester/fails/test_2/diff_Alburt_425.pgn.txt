@@ -1,0 +1,4 @@
+16c16
+< 29. Rb3 c5 30. Bxc5 Nxc5 31. Rxb4 Kc7 32. Rb6 Kd7 33. Nb3  1-0
+---
+> 29. Rb3 c5 30. Bxc5 Nxc5 31. Rxb4 Kc7 32. Rb6 Kd7 33. Nb3 1-0

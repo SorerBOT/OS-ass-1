@@ -1,0 +1,4 @@
+17c17
+< 36. Kd2 Ra1 37. Rhg5 Rxa3 38. Rxg7+ Kf8 39. Kc3 b5 40. Bd5  1-0
+---
+> 36. Kd2 Ra1 37. Rhg5 Rxa3 38. Rxg7+ Kf8 39. Kc3 b5 40. Bd5 1-0

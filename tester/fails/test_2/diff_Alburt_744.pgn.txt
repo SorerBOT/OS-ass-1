@@ -1,0 +1,4 @@
+16c16
+< 30. Bf4 Ne5 31. Nxf5 Qc7 32. Bg2 Re8 33. Ne3 Ncd3 34. Qd4 Bc5 35. Qxd3  1-0
+---
+> 30. Bf4 Ne5 31. Nxf5 Qc7 32. Bg2 Re8 33. Ne3 Ncd3 34. Qd4 Bc5 35. Qxd3 1-0

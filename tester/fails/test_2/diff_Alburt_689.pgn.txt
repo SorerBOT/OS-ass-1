@@ -1,0 +1,4 @@
+16c16
+< 30. Rxc1 Rxe2 31. Rc8 Rd2 32. Rb8 Rd7 33. Kf3 Kf8 34. Ke2 Ke7 35. Ra8 Bb6 36. g4 Rd8  0-1
+---
+> 30. Rxc1 Rxe2 31. Rc8 Rd2 32. Rb8 Rd7 33. Kf3 Kf8 34. Ke2 Ke7 35. Ra8 Bb6 36. g4 Rd8 0-1

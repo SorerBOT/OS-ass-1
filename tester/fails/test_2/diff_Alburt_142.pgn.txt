@@ -1,0 +1,4 @@
+18c18
+< 43. Kxf2 Ng4+ 44. Bxg4 Qxe4 45. Bxd7 Qc2+ 46. Kg1 Qd3 47. c4  1-0
+---
+> 43. Kxf2 Ng4+ 44. Bxg4 Qxe4 45. Bxd7 Qc2+ 46. Kg1 Qd3 47. c4 1-0

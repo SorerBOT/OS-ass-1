@@ -1,0 +1,4 @@
+19c19
+< 51. Rh8+ Kg6 52. Rg8+ Kf5 53. Rf8+ Ke5 54. Kg4 Rg2+ 55. Kh5 a2  0-1
+---
+> 51. Rh8+ Kg6 52. Rg8+ Kf5 53. Rf8+ Ke5 54. Kg4 Rg2+ 55. Kh5 a2 0-1

@@ -1,0 +1,4 @@
+16c16
+< 30. d5 Nxf4 31. Qxf4 Qxe5 32. Qxf7+ Kh7 33. Qf5+ Kh8  1/2-1/2
+---
+> 30. d5 Nxf4 31. Qxf4 Qxe5 32. Qxf7+ Kh7 33. Qf5+ Kh8 1/2-1/2

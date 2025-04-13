@@ -1,0 +1,4 @@
+17c17
+< 37. Rb7 Rc4 38. c7 Ke5 39. h4 Rc3+ 40. Kd2 Rc6 41. Ke3 Rc3+ 42. Kd2 Rc6  1/2-1/2
+---
+> 37. Rb7 Rc4 38. c7 Ke5 39. h4 Rc3+ 40. Kd2 Rc6 41. Ke3 Rc3+ 42. Kd2 Rc6 1/2-1/2

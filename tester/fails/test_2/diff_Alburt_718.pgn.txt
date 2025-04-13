@@ -1,0 +1,4 @@
+21c21
+< 63. Rf3 Rc2+ 64. Rc3 Rxc3+ 65. Kxc3 Bh6 66. Kd3 Kg7 67. Ke2 Kf6 68. Bc4 Bc1 69. Bd5  1/2-1/2
+---
+> 63. Rf3 Rc2+ 64. Rc3 Rxc3+ 65. Kxc3 Bh6 66. Kd3 Kg7 67. Ke2 Kf6 68. Bc4 Bc1 69. Bd5 1/2-1/2

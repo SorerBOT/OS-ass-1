@@ -1,0 +1,4 @@
+17c17
+< 37. Bd2 Qxd2 38. Qxd2 Bc5 39. Qf4 cxd3 40. cxd3 Rh6 41. Kf1 f6 42. Rxa5  1-0
+---
+> 37. Bd2 Qxd2 38. Qxd2 Bc5 39. Qf4 cxd3 40. cxd3 Rh6 41. Kf1 f6 42. Rxa5 1-0
