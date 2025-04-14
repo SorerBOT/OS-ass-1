@@ -4,12 +4,14 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include <dirent.h>
+#include <fcntl.h>
 
 #include <sys/types.h>
 #include <sys/wait.h>
 #include <sys/stat.h>
 
 #define MAX_PATH 1024
+#define READ_BATCH_SIZE 100
 
 typedef struct timespec timespec;
 
@@ -31,10 +33,11 @@ typedef struct {
 
 boolean isDirExists(const char* path);
 char* getDirName(const char* path);
-char* getFullPath(const char* basePath, char* path);
+char* getFullPath(const char* basePath, const char* path);
 void sortFilesLexicographically(DirData* dir);
 void freeDirData(DirData* dir);
 void syncDirs(const DirData* src, const DirData* dest);
+boolean isFileExist(const FileData* file, const DirData* dir);
 
 void __DEBUG_print_files_data(const DirData dir, const char* message);
 
@@ -42,6 +45,9 @@ char* __pwd();
 FileData*__ls(const char* cwd, int* length);
 void __mkdir(const char* dirName);
 void __cd(const char* path);
+void __touch(const DirData* dest, const FileData* file);
+char* __read(const DirData* src, const FileData* file);
+void __write(const DirData* dest, const FileData* file, const char* text);
 
 int main(int argc, char** argv)
 {
@@ -88,8 +94,7 @@ int main(int argc, char** argv)
     sortFilesLexicographically(&src);
     sortFilesLexicographically(&dest);
 
-    __DEBUG_print_files_data(src, "SRC DIR");
-    __DEBUG_print_files_data(dest, "DEST DIR");
+    syncDirs(&src, &dest);
 
     free(srcDirName);
     free(destDirName);
@@ -142,7 +147,7 @@ void __mkdir(const char* dirName)
             perror("fork failed");
             exit(EXIT_FAILURE);
         case 0:
-            execlp("mkdir", "mkdir", dirName, NULL);
+            execlp("/usr/bin/mkdir", "mkdir", dirName, NULL);
 
             perror("Failed to create dir");
             exit(EXIT_FAILURE);
@@ -189,7 +194,7 @@ void __cd(const char* path)
     }
 }
 
-char* getFullPath(const char* basePath, char* path)
+char* getFullPath(const char* basePath, const char* path)
 {
     char* fullPath = (char*)malloc((strlen(basePath) + strlen(path) + 2) * sizeof(char));
 
@@ -307,5 +312,127 @@ void __DEBUG_print_files_data(const DirData dir, const char* message)
 
 void syncDirs(const DirData* src, const DirData* dest)
 {
-    return;
+    for (int i = 0; i < src->filesCount; i++)
+    {
+        FileData* currentFile = &src->files[i];
+
+        if (!isFileExist(currentFile, dest))
+        {
+            char* fileText = NULL;
+
+            __touch(dest, currentFile);
+            fileText = __read(src, currentFile);
+            __write(dest, currentFile, fileText);
+
+            free(fileText);
+        }
+    }
+}
+
+boolean isFileExist(const FileData* file, const DirData* dir)
+{
+    for (int i = 0; i < dir->filesCount; i++)
+    {
+        if (strcmp(file->name, dir->files[i].name) == 0) return true;
+    }
+    return false;
+}
+
+void __touch(const DirData* dest, const FileData* file)
+{
+    int status;
+    pid_t pid = fork();
+
+    switch (pid)
+    {
+        case -1:
+            perror("fork failed");
+            exit(EXIT_FAILURE);
+        case 0:
+            __cd(dest->path);
+            execlp("/usr/bin/touch", "touch", file->name, NULL);
+
+            perror("Failed to create dir");
+            exit(EXIT_FAILURE);
+        default:
+            status = 0;
+
+            waitpid(pid, &status, 0);
+            if (WIFEXITED(status))
+            {
+                int exit_status = WEXITSTATUS(status);
+                if (exit_status == EXIT_SUCCESS)
+                    printf("New file found: %s\n", file->name);
+                else
+                    exit(EXIT_FAILURE);
+            }
+    }
+}
+char* __read(const DirData* src, const FileData* file)
+{
+    char* fullFilePath = NULL;
+    char* fileText = NULL;
+    ssize_t bytesRead = 0;
+    ssize_t totalBytesRead = 0;
+
+    fullFilePath = getFullPath(src->path, file->name);
+
+    int fd = open(fullFilePath, O_RDONLY);
+    if (fd < 0)
+    {
+        perror("open failed");
+        exit(EXIT_FAILURE);
+    }
+
+    fileText = (char*)realloc(fileText, READ_BATCH_SIZE * sizeof(char));
+    if (fileText == NULL)
+    {
+        perror("realloc failed");
+        exit(EXIT_FAILURE);
+    }
+    while ((bytesRead = read(fd, (fileText + totalBytesRead), READ_BATCH_SIZE)) > 0)
+    {
+        totalBytesRead += bytesRead;
+
+        fileText = (char*)realloc(fileText, (totalBytesRead + READ_BATCH_SIZE) * sizeof(char));
+        if (fileText == NULL)
+        {
+            perror("realloc failed");
+            exit(EXIT_FAILURE);
+        }
+    }
+
+    fileText = (char*)realloc(fileText, totalBytesRead + 1);
+    if (fileText == NULL)
+    {
+        perror("realloc failed");
+        exit(EXIT_FAILURE);
+    }
+
+    fileText[totalBytesRead] = '\0';
+
+    free(fullFilePath);
+    return fileText;
+}
+
+void __write(const DirData* dest, const FileData* file, const char* text)
+{
+    char* destFileFullPath = NULL;
+    int textLength = 0;
+
+    destFileFullPath = getFullPath(dest->path, file->name);
+    int fd = open(destFileFullPath, O_RDWR);
+
+    if (fd < 0)
+    {
+        perror("open failed");
+        exit(EXIT_FAILURE);
+    }
+
+    textLength = strlen(text);
+    if (write(fd, text, textLength) != textLength)
+    {
+        perror("writing failed");
+        exit(EXIT_FAILURE);
+    }
 }
