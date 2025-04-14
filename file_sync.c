@@ -37,7 +37,8 @@ char* getFullPath(const char* basePath, const char* path);
 void sortFilesLexicographically(DirData* dir);
 void freeDirData(DirData* dir);
 void syncDirs(const DirData* src, const DirData* dest);
-boolean isFileExist(const FileData* file, const DirData* dir);
+FileData* findFile(const FileData* file, const DirData* dir);
+boolean isFirstNewer(const FileData* first, const FileData* second);
 
 void __DEBUG_print_files_data(const DirData dir, const char* message);
 
@@ -48,6 +49,8 @@ void __cd(const char* path);
 void __touch(const DirData* dest, const FileData* file);
 char* __read(const DirData* src, const FileData* file);
 void __write(const DirData* dest, const FileData* file, const char* text);
+boolean __diff(const DirData* dest, const DirData* src, const FileData* file);
+void __cp(const DirData* dest, const DirData* src, const FileData* file);
 
 int main(int argc, char** argv)
 {
@@ -138,7 +141,7 @@ char* getDirName(const char* path)
 
 void __mkdir(const char* dirName)
 {
-    int status;
+    int status = 0;
     pid_t pid = fork();
 
     switch (pid)
@@ -152,8 +155,6 @@ void __mkdir(const char* dirName)
             perror("Failed to create dir");
             exit(EXIT_FAILURE);
         default:
-            status = 0;
-
             waitpid(pid, &status, 0);
             if (WIFEXITED(status))
             {
@@ -161,7 +162,10 @@ void __mkdir(const char* dirName)
                 if (exit_status == EXIT_SUCCESS)
                     printf("Created destination directory '%s'.\n", dirName);
                 else
+                {
+                    perror("mkdir failed");
                     exit(EXIT_FAILURE);
+                }
             }
     }
 }
@@ -197,6 +201,11 @@ void __cd(const char* path)
 char* getFullPath(const char* basePath, const char* path)
 {
     char* fullPath = (char*)malloc((strlen(basePath) + strlen(path) + 2) * sizeof(char));
+    if (fullPath == NULL)
+    {
+        perror("malloc failed");
+        exit(EXIT_FAILURE);
+    }
 
     strcpy(fullPath, basePath);
     strcat(fullPath, "/");
@@ -315,9 +324,12 @@ void syncDirs(const DirData* src, const DirData* dest)
     for (int i = 0; i < src->filesCount; i++)
     {
         FileData* currentFile = &src->files[i];
+        FileData* correspondingDestFile = NULL;
 
-        if (!isFileExist(currentFile, dest))
+        if ((correspondingDestFile = findFile(currentFile, dest)) == NULL)
         {
+            printf("New file found: %s\n", currentFile->name);
+
             char* fileText = NULL;
 
             __touch(dest, currentFile);
@@ -325,22 +337,45 @@ void syncDirs(const DirData* src, const DirData* dest)
             __write(dest, currentFile, fileText);
 
             free(fileText);
+            continue;
+        }
+        else
+        {
+            if (__diff(dest, src, currentFile))
+            {
+                if (isFirstNewer(currentFile, correspondingDestFile))
+                {
+                    __cp(dest, src, currentFile);
+                    printf("File %s is newer in source. Updating...\n", currentFile->name);
+                    continue;
+                }
+                else
+                {
+                    printf("File %s is newer in destination. Skipping...\n", currentFile->name);
+                    continue;
+                }
+            }
+            else
+            {
+                printf("File %s is identical. Skipping...\n", currentFile->name);
+                continue;
+            }
         }
     }
 }
 
-boolean isFileExist(const FileData* file, const DirData* dir)
+FileData* findFile(const FileData* file, const DirData* dir)
 {
     for (int i = 0; i < dir->filesCount; i++)
     {
-        if (strcmp(file->name, dir->files[i].name) == 0) return true;
+        if (strcmp(file->name, dir->files[i].name) == 0) return &dir->files[i];
     }
-    return false;
+    return NULL;
 }
 
 void __touch(const DirData* dest, const FileData* file)
 {
-    int status;
+    int status = 0;
     pid_t pid = fork();
 
     switch (pid)
@@ -355,16 +390,15 @@ void __touch(const DirData* dest, const FileData* file)
             perror("Failed to create dir");
             exit(EXIT_FAILURE);
         default:
-            status = 0;
-
             waitpid(pid, &status, 0);
             if (WIFEXITED(status))
             {
                 int exit_status = WEXITSTATUS(status);
-                if (exit_status == EXIT_SUCCESS)
-                    printf("New file found: %s\n", file->name);
-                else
+                if (exit_status == EXIT_FAILURE)
+                {
+                    perror("touch failed");
                     exit(EXIT_FAILURE);
+                }
             }
     }
 }
@@ -372,6 +406,7 @@ char* __read(const DirData* src, const FileData* file)
 {
     char* fullFilePath = NULL;
     char* fileText = NULL;
+
     ssize_t bytesRead = 0;
     ssize_t totalBytesRead = 0;
 
@@ -434,5 +469,106 @@ void __write(const DirData* dest, const FileData* file, const char* text)
     {
         perror("writing failed");
         exit(EXIT_FAILURE);
+    }
+
+    free(destFileFullPath);
+}
+
+boolean __diff(const DirData* dest, const DirData* src, const FileData* file)
+{
+    int null_fd = -1;
+
+    char* srcFileFullPath = NULL;
+    char* destFileFullPath = NULL;
+
+    int status = 0;
+    pid_t pid = -1;
+
+    srcFileFullPath = getFullPath(src->path, file->name);
+    destFileFullPath = getFullPath(dest->path, file->name);
+
+    pid = fork();
+
+    switch (pid)
+    {
+        case -1:
+            perror("fork failed");
+            exit(EXIT_FAILURE);
+        case 0:
+            null_fd = open("/dev/null", O_WRONLY);
+            dup2(null_fd, STDOUT_FILENO);
+            close(null_fd);
+
+            execlp("/usr/bin/diff", "diff", "-q", srcFileFullPath, destFileFullPath, NULL);
+
+            perror("failed to get diffs");
+            exit(EXIT_FAILURE);
+        default:
+            waitpid(pid, &status, 0);
+            if (WIFEXITED(status))
+            {
+                int exit_status = WEXITSTATUS(status);
+                switch (exit_status)
+                {
+                    case 0:
+                        return false;
+                    case 1:
+                        return true;
+                    case 2:
+                    default:
+                        perror("diff failed");
+                        exit(EXIT_FAILURE);
+                }
+            }
+    }
+    perror("unexpected error");
+    exit(EXIT_FAILURE);
+}
+
+boolean isFirstNewer(const FileData* first, const FileData* second)
+{
+    if (first->lastModified.tv_sec < second->lastModified.tv_sec) return true;
+    else if (first->lastModified.tv_sec == second->lastModified.tv_sec)
+    {
+        if (first->lastModified.tv_nsec < second->lastModified.tv_nsec) return true;
+
+    }
+    return false;
+}
+
+void __cp(const DirData* dest, const DirData* src, const FileData* file)
+{
+    char* srcFileFullPath = NULL;
+    char* destFileFullPath = NULL;
+
+    int status = 0;
+    pid_t pid = -1;
+
+    srcFileFullPath = getFullPath(src->path, file->name);
+    destFileFullPath = getFullPath(dest->path, file->name);
+
+    pid = fork();
+
+    switch (pid)
+    {
+        case -1:
+            perror("fork failed");
+            exit(EXIT_FAILURE);
+        case 0:
+            execlp("/usr/bin/cp", "cp", srcFileFullPath, destFileFullPath, NULL);
+
+            perror("failed to cp");
+            exit(EXIT_FAILURE);
+        default:
+            waitpid(pid, &status, 0);
+            if (WIFEXITED(status))
+            {
+                int exit_status = WEXITSTATUS(status);
+                if (exit_status == EXIT_FAILURE)
+                {
+                    perror("cp failed");
+                    exit(EXIT_FAILURE);
+                }
+            }
     }
 }
