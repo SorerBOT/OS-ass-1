@@ -11,26 +11,45 @@
 
 #define MAX_PATH 1024
 
+typedef struct timespec timespec;
+
 typedef enum  {
     false,
     true
 } boolean;
 
+typedef struct {
+    char* name;
+    timespec lastModified;
+} FileData;
+
+typedef struct {
+    char* path;
+    FileData* files;
+    int filesCount;
+} DirData;
+
 boolean isDirExists(const char* path);
 char* getDirName(const char* path);
 char* getFullPath(const char* basePath, char* path);
+void sortFilesLexicographically(DirData* dir);
+void freeDirData(DirData* dir);
+void syncDirs(const DirData* src, const DirData* dest);
+
+void __DEBUG_print_files_data(const DirData dir, const char* message);
 
 char* __pwd();
-void __ls(const char* cwd);
+FileData*__ls(const char* cwd, int* length);
 void __mkdir(const char* dirName);
 void __cd(const char* path);
 
 int main(int argc, char** argv)
 {
+    DirData src;
+    DirData dest;
+
     char* srcDirName = NULL;
     char* destDirName = NULL;
-    char* srcPath = NULL;
-    char* destPath = NULL;
     char* cwd = NULL;
 
     if (argc != 3)
@@ -53,21 +72,30 @@ int main(int argc, char** argv)
     cwd = __pwd();
     printf("Current working directory: %s\n", cwd);
 
-    srcPath = getFullPath(cwd, srcDirName);
-    __cd(srcPath);
+    src.path = getFullPath(cwd, srcDirName);
+    dest.path = getFullPath(cwd, destDirName);
 
+    __cd(src.path);
     free(cwd);
     cwd = __pwd();
-    __ls(cwd);
-    // destPath = getFullPath(cwd, destDirName);
+    src.files =__ls(cwd, &src.filesCount);
 
-    
+    __cd(dest.path);
+    free(cwd);
+    cwd = __pwd();
+    dest.files = __ls(cwd, &dest.filesCount);
+
+    sortFilesLexicographically(&src);
+    sortFilesLexicographically(&dest);
+
+    __DEBUG_print_files_data(src, "SRC DIR");
+    __DEBUG_print_files_data(dest, "DEST DIR");
 
     free(srcDirName);
     free(destDirName);
-    free(srcPath);
-    free(destPath);
     free(cwd);
+    freeDirData(&src);
+    freeDirData(&dest);
 }
 
 boolean isDirExists(const char* path)
@@ -172,14 +200,15 @@ char* getFullPath(const char* basePath, char* path)
     return fullPath;
 }
 
-void __ls(const char* cwd)
+FileData* __ls(const char* cwd, int* length)
 {
     DIR* dir = NULL;
     struct dirent *entry = NULL;
     char* filePath = NULL;
+    FileData* filesData = NULL;
+    int filesCount = 0;
 
     struct stat fileStat;
-
     dir = opendir(cwd);
     if (dir == NULL)
     {
@@ -187,8 +216,11 @@ void __ls(const char* cwd)
         exit(EXIT_FAILURE);
     }
 
+
     while ((entry = readdir(dir)) != NULL)
     {
+        char* fileName = NULL;
+
         if (strcmp(entry->d_name, ".") == 0 || strcmp(entry->d_name, "..") == 0)
             continue;
 
@@ -198,12 +230,82 @@ void __ls(const char* cwd)
             continue;
         }
 
-        printf("Name: %s\n", entry->d_name);
-        printf("Type: %s\n", S_ISDIR(fileStat.st_mode) ? "Directory" : "File");
-        printf("Size: %ld bytes\n", fileStat.st_size);
-        printf("Permissions: %o\n", fileStat.st_mode & 0777);
-        printf("----------\n");
+        if (S_ISDIR(fileStat.st_mode)) continue;
+        
+        filesCount++;
+        filesData = (FileData*)realloc(filesData, filesCount * sizeof(FileData));
+        if (filesData == NULL)
+        {
+            perror("Realloc failed");
+            exit(EXIT_FAILURE);
+        }
+
+        fileName = (char*)malloc(strlen(entry->d_name) * sizeof(char));
+        if (fileName == NULL)
+        {
+            perror("Malloc failed");
+            exit(EXIT_FAILURE);
+        }
+        strcpy(fileName, entry->d_name);
+
+        filesData[filesCount - 1] = (FileData)
+        {
+            fileName,
+            fileStat.st_mtim
+        };
     }
 
     closedir(dir);
+
+    *length = filesCount;
+    return filesData;
+}
+
+void sortFilesLexicographically(DirData* dir)
+{
+    FileData temp;
+    char* name1 = NULL;
+    char* name2 = NULL;
+
+    for (int i = 0; i < dir->filesCount - 1; i++)
+    {
+        name1 = dir->files[i].name;
+        name2 = dir->files[i + 1].name;
+
+        if (strcmp(name1, name2) <= 0) continue;
+        temp = dir->files[i + 1];
+        dir->files[i + 1] = dir->files[i];
+        dir->files[i] = temp;
+        i = -1; // start over
+    }
+}
+
+void freeDirData(DirData* dir)
+{
+    for (int i = 0; i < dir->filesCount; i++)
+    {
+        free(dir->files[i].name);
+    }
+    free(dir->files);
+    free(dir->path);
+}
+
+void __DEBUG_print_files_data(const DirData dir, const char* message)
+{
+    if (message != NULL)
+        printf("%s\n", message);
+
+    printf("Reading %d files from path: %s\n", dir.filesCount, dir.path);
+
+    for (int i = 0; i < dir.filesCount; i++)
+    {
+        printf("%s\n", dir.files[i].name);
+        printf("%ld\n", dir.files[i].lastModified.tv_sec);
+        printf("======================================\n");
+    }
+}
+
+void syncDirs(const DirData* src, const DirData* dest)
+{
+    return;
 }
