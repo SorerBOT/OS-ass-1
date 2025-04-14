@@ -61,9 +61,6 @@ int main(int argc, char** argv)
     char* destDirName = NULL;
     char* cwd = NULL;
 
-    cwd = __pwd();
-    printf("Current working directory: %s\n", cwd);
-
     if (argc != 3)
     {
         printf("Usage: ./file_sync <source_directory> <destination_directory>\n");
@@ -81,10 +78,11 @@ int main(int argc, char** argv)
     if (!isDirExists(argv[2]))
         __mkdir(destDirName);
 
+    cwd = __pwd();
+    printf("Current working directory: %s\n", cwd);
+
     src.path = getFullPath(cwd, srcDirName);
     dest.path = getFullPath(cwd, destDirName);
-
-    printf("Synchronizing from %s to %s\n", src.path, dest.path);
 
     __cd(src.path);
     free(cwd);
@@ -100,8 +98,6 @@ int main(int argc, char** argv)
     sortFilesLexicographically(&dest);
 
     syncDirs(&src, &dest);
-
-    printf("Synchronization complete.\n");
 
     free(srcDirName);
     free(destDirName);
