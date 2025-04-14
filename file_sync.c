@@ -32,6 +32,7 @@ typedef struct {
 } DirData;
 
 boolean isDirExists(const char* path);
+char* getDirPath(const char* path);
 char* getDirName(const char* path);
 char* getFullPath(const char* basePath, const char* path);
 void sortFilesLexicographically(DirData* dir);
@@ -42,13 +43,11 @@ boolean isFirstNewer(const FileData* first, const FileData* second);
 
 void __DEBUG_print_files_data(const DirData dir, const char* message);
 
+void __strcpy(char* dest, const char* src, int copy_size);
 char* __pwd();
 FileData*__ls(const char* cwd, int* length);
 void __mkdir(const char* dirName);
 void __cd(const char* path);
-void __touch(const DirData* dest, const FileData* file);
-char* __read(const DirData* src, const FileData* file);
-void __write(const DirData* dest, const FileData* file, const char* text);
 boolean __diff(const DirData* dest, const DirData* src, const FileData* file);
 void __cp(const DirData* dest, const DirData* src, const FileData* file);
 
@@ -57,8 +56,11 @@ int main(int argc, char** argv)
     DirData src;
     DirData dest;
 
+    char* srcDirPath = NULL;
+    char* destDirPath = NULL;
     char* srcDirName = NULL;
     char* destDirName = NULL;
+
     char* cwd = NULL;
 
     cwd = __pwd();
@@ -66,12 +68,27 @@ int main(int argc, char** argv)
 
     if (argc != 3)
     {
-        printf("Usage: ./file_sync <source_directory> <destination_directory>\n");
+        printf("Usage: file_sync <source_directory> <destination_directory>\n");
         exit(EXIT_FAILURE);
     }
 
     srcDirName = getDirName(argv[1]);
     destDirName = getDirName(argv[2]);
+
+    srcDirPath = getDirPath(argv[1]);
+    destDirPath = getDirPath(argv[2]);
+
+    if (srcDirPath != NULL)
+        __cd(srcDirPath);
+    free(cwd);
+    cwd = __pwd();
+    src.path = getFullPath(cwd, srcDirName);
+
+    if (destDirPath != NULL)
+        __cd(destDirPath);
+    free(cwd);
+    cwd = __pwd();
+    dest.path = getFullPath(cwd, destDirName);
 
     if (!isDirExists(argv[1]))
     {
@@ -79,10 +96,7 @@ int main(int argc, char** argv)
         exit(EXIT_FAILURE);
     }
     if (!isDirExists(argv[2]))
-        __mkdir(destDirName);
-
-    src.path = getFullPath(cwd, srcDirName);
-    dest.path = getFullPath(cwd, destDirName);
+        __mkdir(argv[2]);
 
     printf("Synchronizing from %s to %s\n", src.path, dest.path);
 
@@ -105,6 +119,8 @@ int main(int argc, char** argv)
 
     free(srcDirName);
     free(destDirName);
+    free(srcDirPath);
+    free(destDirPath);
     free(cwd);
     freeDirData(&src);
     freeDirData(&dest);
@@ -119,6 +135,22 @@ boolean isDirExists(const char* path)
     return false;
 }
 
+char* getDirPath(const char* path)
+{
+    char* dirPath = NULL;
+    int lastSlashIdx = strlen(path);
+
+    for (; lastSlashIdx > -1; lastSlashIdx--)
+    {
+        if (path[lastSlashIdx] == '/')
+            break;
+    }
+    if (lastSlashIdx == -1) return NULL;
+    dirPath = (char*)malloc((lastSlashIdx + 1) * sizeof(char));
+    __strcpy(dirPath, path, lastSlashIdx);
+
+    return dirPath;
+}
 char* getDirName(const char* path)
 {
     int idx = 0, lastSlashIdx = 0;
@@ -333,14 +365,7 @@ void syncDirs(const DirData* src, const DirData* dest)
         if ((correspondingDestFile = findFile(currentFile, dest)) == NULL)
         {
             printf("New file found: %s\n", currentFile->name);
-
-            char* fileText = NULL;
-
-            __touch(dest, currentFile);
-            fileText = __read(src, currentFile);
-            __write(dest, currentFile, fileText);
-
-            free(fileText);
+            __cp(dest, src, currentFile);
             continue;
         }
         else
@@ -375,107 +400,6 @@ FileData* findFile(const FileData* file, const DirData* dir)
         if (strcmp(file->name, dir->files[i].name) == 0) return &dir->files[i];
     }
     return NULL;
-}
-
-void __touch(const DirData* dest, const FileData* file)
-{
-    int status = 0;
-    pid_t pid = fork();
-
-    switch (pid)
-    {
-        case -1:
-            perror("fork failed");
-            exit(EXIT_FAILURE);
-        case 0:
-            __cd(dest->path);
-            execlp("/usr/bin/touch", "touch", file->name, NULL);
-
-            perror("Failed to create dir");
-            exit(EXIT_FAILURE);
-        default:
-            waitpid(pid, &status, 0);
-            if (WIFEXITED(status))
-            {
-                int exit_status = WEXITSTATUS(status);
-                if (exit_status == EXIT_FAILURE)
-                {
-                    perror("touch failed");
-                    exit(EXIT_FAILURE);
-                }
-            }
-    }
-}
-char* __read(const DirData* src, const FileData* file)
-{
-    char* fullFilePath = NULL;
-    char* fileText = NULL;
-
-    ssize_t bytesRead = 0;
-    ssize_t totalBytesRead = 0;
-
-    fullFilePath = getFullPath(src->path, file->name);
-
-    int fd = open(fullFilePath, O_RDONLY);
-    if (fd < 0)
-    {
-        perror("open failed");
-        exit(EXIT_FAILURE);
-    }
-
-    fileText = (char*)realloc(fileText, READ_BATCH_SIZE * sizeof(char));
-    if (fileText == NULL)
-    {
-        perror("realloc failed");
-        exit(EXIT_FAILURE);
-    }
-    while ((bytesRead = read(fd, (fileText + totalBytesRead), READ_BATCH_SIZE)) > 0)
-    {
-        totalBytesRead += bytesRead;
-
-        fileText = (char*)realloc(fileText, (totalBytesRead + READ_BATCH_SIZE) * sizeof(char));
-        if (fileText == NULL)
-        {
-            perror("realloc failed");
-            exit(EXIT_FAILURE);
-        }
-    }
-
-    fileText = (char*)realloc(fileText, totalBytesRead + 1);
-    if (fileText == NULL)
-    {
-        perror("realloc failed");
-        exit(EXIT_FAILURE);
-    }
-
-    fileText[totalBytesRead] = '\0';
-
-    free(fullFilePath);
-    return fileText;
-}
-
-void __write(const DirData* dest, const FileData* file, const char* text)
-{
-    char* destFileFullPath = NULL;
-    int textLength = 0;
-
-    destFileFullPath = getFullPath(dest->path, file->name);
-    int fd = open(destFileFullPath, O_RDWR);
-
-    if (fd < 0)
-    {
-        perror("open failed");
-        exit(EXIT_FAILURE);
-    }
-
-    textLength = strlen(text);
-    if (write(fd, text, textLength) != textLength)
-    {
-        perror("writing failed");
-        exit(EXIT_FAILURE);
-    }
-
-    free(destFileFullPath);
 }
 
 boolean __diff(const DirData* dest, const DirData* src, const FileData* file)
@@ -531,13 +455,13 @@ boolean __diff(const DirData* dest, const DirData* src, const FileData* file)
 
 boolean isFirstNewer(const FileData* first, const FileData* second)
 {
-    if (first->lastModified.tv_sec < second->lastModified.tv_sec) return true;
+    if (first->lastModified.tv_sec < second->lastModified.tv_sec) return false;
     else if (first->lastModified.tv_sec == second->lastModified.tv_sec)
     {
-        if (first->lastModified.tv_nsec < second->lastModified.tv_nsec) return true;
+        if (first->lastModified.tv_nsec < second->lastModified.tv_nsec) return false;
 
     }
-    return false;
+    return true;
 }
 
 void __cp(const DirData* dest, const DirData* src, const FileData* file)
@@ -568,6 +492,10 @@ void __cp(const DirData* dest, const DirData* src, const FileData* file)
             if (WIFEXITED(status))
             {
                 int exit_status = WEXITSTATUS(status);
+                if (exit_status == EXIT_SUCCESS)
+                {
+                    printf("Copied: %s -> %s\n", srcFileFullPath, destFileFullPath);
+                }
                 if (exit_status == EXIT_FAILURE)
                 {
                     perror("cp failed");
@@ -575,4 +503,19 @@ void __cp(const DirData* dest, const DirData* src, const FileData* file)
                 }
             }
     }
+}
+void __strcpy(char* dest, const char* src, int copy_size)
+{
+    int srcLength = strlen(src);
+
+    for (int i = 0; i < copy_size; i++)
+    {
+        if (srcLength == i)
+        {
+            perror("cannot copy more than srcLength bytes");
+            exit(EXIT_FAILURE);
+        }
+        dest[i] = src[i];
+    }
+    dest[copy_size] = '\0';
 }
