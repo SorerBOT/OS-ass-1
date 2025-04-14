@@ -32,6 +32,7 @@ typedef struct {
 } DirData;
 
 boolean isDirExists(const char* path);
+char* getDirPath(const char* path);
 char* getDirName(const char* path);
 char* getFullPath(const char* basePath, const char* path);
 void sortFilesLexicographically(DirData* dir);
@@ -42,6 +43,7 @@ boolean isFirstNewer(const FileData* first, const FileData* second);
 
 void __DEBUG_print_files_data(const DirData dir, const char* message);
 
+void __strcpy(char* dest, const char* src, int copy_size);
 char* __pwd();
 FileData*__ls(const char* cwd, int* length);
 void __mkdir(const char* dirName);
@@ -54,8 +56,11 @@ int main(int argc, char** argv)
     DirData src;
     DirData dest;
 
+    char* srcDirPath = NULL;
+    char* destDirPath = NULL;
     char* srcDirName = NULL;
     char* destDirName = NULL;
+
     char* cwd = NULL;
 
     cwd = __pwd();
@@ -70,16 +75,28 @@ int main(int argc, char** argv)
     srcDirName = getDirName(argv[1]);
     destDirName = getDirName(argv[2]);
 
+    srcDirPath = getDirPath(argv[1]);
+    destDirPath = getDirPath(argv[2]);
+
+    if (srcDirPath != NULL)
+        __cd(srcDirPath);
+    free(cwd);
+    cwd = __pwd();
+    src.path = getFullPath(cwd, srcDirName);
+
+    if (destDirPath != NULL)
+        __cd(destDirPath);
+    free(cwd);
+    cwd = __pwd();
+    dest.path = getFullPath(cwd, destDirName);
+
     if (!isDirExists(argv[1]))
     {
         printf("Error: Source directory '%s' does not exist.\n", srcDirName);
         exit(EXIT_FAILURE);
     }
     if (!isDirExists(argv[2]))
-        __mkdir(destDirName);
-
-    src.path = getFullPath(cwd, srcDirName);
-    dest.path = getFullPath(cwd, destDirName);
+        __mkdir(argv[2]);
 
     printf("Synchronizing from %s to %s\n", src.path, dest.path);
 
@@ -102,6 +119,8 @@ int main(int argc, char** argv)
 
     free(srcDirName);
     free(destDirName);
+    free(srcDirPath);
+    free(destDirPath);
     free(cwd);
     freeDirData(&src);
     freeDirData(&dest);
@@ -116,6 +135,22 @@ boolean isDirExists(const char* path)
     return false;
 }
 
+char* getDirPath(const char* path)
+{
+    char* dirPath = NULL;
+    int lastSlashIdx = strlen(path);
+
+    for (; lastSlashIdx > -1; lastSlashIdx--)
+    {
+        if (path[lastSlashIdx] == '/')
+            break;
+    }
+    if (lastSlashIdx == -1) return NULL;
+    dirPath = (char*)malloc((lastSlashIdx + 1) * sizeof(char));
+    __strcpy(dirPath, path, lastSlashIdx);
+
+    return dirPath;
+}
 char* getDirName(const char* path)
 {
     int idx = 0, lastSlashIdx = 0;
@@ -420,13 +455,13 @@ boolean __diff(const DirData* dest, const DirData* src, const FileData* file)
 
 boolean isFirstNewer(const FileData* first, const FileData* second)
 {
-    if (first->lastModified.tv_sec < second->lastModified.tv_sec) return true;
+    if (first->lastModified.tv_sec < second->lastModified.tv_sec) return false;
     else if (first->lastModified.tv_sec == second->lastModified.tv_sec)
     {
-        if (first->lastModified.tv_nsec < second->lastModified.tv_nsec) return true;
+        if (first->lastModified.tv_nsec < second->lastModified.tv_nsec) return false;
 
     }
-    return false;
+    return true;
 }
 
 void __cp(const DirData* dest, const DirData* src, const FileData* file)
@@ -468,4 +503,19 @@ void __cp(const DirData* dest, const DirData* src, const FileData* file)
                 }
             }
     }
+}
+void __strcpy(char* dest, const char* src, int copy_size)
+{
+    int srcLength = strlen(src);
+
+    for (int i = 0; i < copy_size; i++)
+    {
+        if (srcLength == i)
+        {
+            perror("cannot copy more than srcLength bytes");
+            exit(EXIT_FAILURE);
+        }
+        dest[i] = src[i];
+    }
+    dest[copy_size] = '\0';
 }
